@@ -7,14 +7,14 @@
 
                     <li class="nav-item dropdown notification">
                         <a class="nav-link dropdown-toggle " href="#" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="../src/assets/img/bell.svg" />
+                            <img src="../src/assets/images/bell.svg" />
                         </a>
                         <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown" data-bs-popper="none">
                             <div class="dropdown-item">
                                 <div class="notify-content">
                                     <div class="msg-title">
                                         <h3>Notification</h3>
-                                        <a href="#">Viewal </a>
+                                        <a href="#">Viewall</a>
                                     </div>
                                     <div class="divider"></div>
                                     <h4>Lorem ipsum</h4>
@@ -62,7 +62,7 @@
         <span class="shrink-btn">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
         </span>
-        <img src="../src/assets/img/seasons_logo.png" class="logo" alt="">
+        <img src="../src/assets/images/seasons_logo.png" class="logo" alt="">
         <h3 class="hide">Trader's Circuit</h3>
     </div>
     <div class="sidebar-links" style="overflow: scroll;">
@@ -75,7 +75,7 @@
                                         ?>" data-tooltip="0">
                 <a href="index.php" data-active="0">
                     <div class="icons">
-                        <img src="../src/assets/img/dashboard.svg" />
+                        <img src="../src/assets/images/dashboard.svg" />
                         <span class="text">Dashboard</span>
                     </div>
                 </a>
@@ -83,7 +83,7 @@
 
             <!-- <button class="dropdown-btn-users mb-1">
                 <div class="icons d-flex align-items-center justify-content-start w-100">
-                    <img src="../src/assets/img/Group 57904.svg" />
+                    <img src="../src/assets/images/Group 57904.svg" />
                     <span class="text-1">Manage Users</span>
                 </div>
                 <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
@@ -98,7 +98,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-customers.php" data-active="1">
                             <div class="icons">
-                                <img src="../src/assets/img/single-user.svg" />
+                                <img src="../src/assets/images/single-user.svg" />
                                 <span class="text">Customer App</span>
                             </div>
                         </a>
@@ -111,7 +111,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-restraunts.php" data-active="1">
                             <div class="icons">
-                                <img src="../src/assets/img/restraunt.svg" />
+                                <img src="../src/assets/images/restraunt.svg" />
                                 <span class="text">Restaurant App</span>
                             </div>
                         </a>
@@ -124,7 +124,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-subadmins.php" data-active="1">
                             <div class="icons">
-                                <img src="../src/assets/img/Group 57906.svg">
+                                <img src="../src/assets/images/Group 57906.svg">
                                 <span class=" text">Sub Admins</span>
                             </div>
                         </a>
@@ -140,20 +140,20 @@
                                         ?>" data-tooltip="2">
                 <a href="manage-users.php" data-active="2">
                     <div class="icons">
-                        <img src="../src/assets/img/m-users.svg" />
+                        <img src="../src/assets/images/m-users.svg" />
                         <span class="text">Manage Users</span>
                     </div>
                 </a>
             </li>
 
             <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-passports') {
+                                        if ($currentPage == 'manage-products') {
                                             echo 'active';
                                         }
                                         ?>" data-tooltip="2">
-                <a href="manage-passports.php" data-active="2">
+                <a href="manage-products.php" data-active="2">
                     <div class="icons">
-                        <img src="../src/assets/img/m-products.svg" />
+                        <img src="../src/assets/images/m-products.svg" />
                         <span class="text">Manage Products</span>
                     </div>
                 </a>
@@ -166,7 +166,7 @@
                                             ?>" data-tooltip="3">
                 <a href="manage-vouchers.php" data-active="3">
                     <div class="icons">
-                        <img src="../src/assets/img/fluent-mdl2_coupon.svg" />
+                        <img src="../src/assets/images/fluent-mdl2_coupon.svg" />
                         <span class="text">Manage Vouchers</span>
                     </div>
                 </a>
@@ -179,7 +179,7 @@
                                             ?>" data-tooltip="4">
                 <a href="manage-contact.php" data-active="4">
                     <div class="icons">
-                        <img src="../src/assets/img/call(1) 3.svg" />
+                        <img src="../src/assets/images/call(1) 3.svg" />
                         <span class="text">Manage Contact Us</span>
                     </div>
                 </a>
@@ -189,7 +189,7 @@
 
             <button class="dropdown-btn-users mb-1">
                 <div class="icons d-flex align-items-center justify-content-start w-100">
-                    <img src="../src/assets/img/m-cms.svg" />
+                    <img src="../src/assets/images/m-cms.svg" />
                     <span class="text-1">Manage CMS</span>
                 </div>
                 <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
@@ -204,7 +204,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-news.php" data-active="1">
                             <div class="icons">
-                                <!-- <img src="../src/assets/img/article 1.svg" /> -->
+                                <!-- <img src="../src/assets/images/article 1.svg" /> -->
                                 <span class="text">News & Article</span>
                             </div>
                         </a>
@@ -217,7 +217,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-newsletter.php" data-active="1">
                             <div class="icons">
-                                <!-- <img src="../src/assets/img/quill_inbox-newsletter.svg" /> -->
+                                <!-- <img src="../src/assets/images/quill_inbox-newsletter.svg" /> -->
                                 <span class="text">Newsletter</span>
                             </div>
                         </a>
@@ -230,7 +230,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-aboutus.php" data-active="1">
                             <div class="icons">
-                                <!-- <img src="../src/assets/img/user (2) 1.svg" /> -->
+                                <!-- <img src="../src/assets/images/user (2) 1.svg" /> -->
                                 <span class="text">About Us</span>
                             </div>
                         </a>
@@ -243,7 +243,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-terms.php" data-active="1">
                             <div class="icons">
-                                <!-- <img src="../src/assets/img/contract 1.svg" /> -->
+                                <!-- <img src="../src/assets/images/contract 1.svg" /> -->
                                 <span class="text">Terms & Conditions</span>
                             </div>
                         </a>
@@ -256,7 +256,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-faq.php" data-active="1">
                             <div class="icons">
-                                <!-- <img src="../src/assets/img/conversation 3.svg" /> -->
+                                <!-- <img src="../src/assets/images/conversation 3.svg" /> -->
                                 <span class="text">FAQ</span>
                             </div>
                         </a>
@@ -269,7 +269,7 @@
                                                 ?>" data-tooltip="1">
                         <a href="manage-privacy.php" data-active="1">
                             <div class="icons">
-                                <!-- <img src="../src/assets/img/privacy.svg" /> -->
+                                <!-- <img src="../src/assets/images/privacy.svg" /> -->
                                 <span class="text">Privacy Policy</span>
                             </div>
                         </a>
@@ -286,7 +286,7 @@
                                         ?>" data-tooltip="5">
                 <a href="manage-reports.php" data-active="5">
                     <div class="icons">
-                        <img src="../src/assets/img/m-subadmins.svg" />
+                        <img src="../src/assets/images/m-subadmins.svg" />
                         <span class="text">Manage Sub admins</span>
                     </div>
                 </a>
@@ -299,7 +299,7 @@
                                         ?>" data-tooltip="6">
                 <a href="manage-feedback.php" data-active="6">
                     <div class="icons">
-                        <img src="../src/assets/img/m-thirdparties.svg" />
+                        <img src="../src/assets/images/m-thirdparties.svg" />
                         <span class="text">Manage Third Parties</span>
                     </div>
                 </a>
@@ -312,7 +312,7 @@
                                         ?>" data-tooltip="6">
                 <a href="manage-notification.php" data-active="6">
                     <div class="icons">
-                        <img src="../src/assets/img/m-noti.svg" />
+                        <img src="../src/assets/images/m-noti.svg" />
                         <span class="text">Manage Notification</span>
                     </div>
                 </a>
@@ -324,7 +324,7 @@
                                         ?>" data-tooltip="6">
                 <a href="manage-notification.php" data-active="6">
                     <div class="icons">
-                        <img src="../src/assets/img/m-reco.svg" />
+                        <img src="../src/assets/images/m-reco.svg" />
                         <span class="text">Manage Recommendation</span>
                     </div>
                 </a>
@@ -336,7 +336,7 @@
                                         ?>" data-tooltip="6">
                 <a href="manage-contact.php" data-active="6">
                     <div class="icons">
-                        <img src="../src/assets/img/m-contact.svg" />
+                        <img src="../src/assets/images/m-contact.svg" />
                         <span class="text">Manage Contact Us</span>
                     </div>
                 </a>
@@ -350,7 +350,7 @@
                                         ?>" data-tooltip="3">
                 <a href="manage-subscription.php" data-active="3">
                     <div class="icons">
-                        <img src="../src/assets/img/myprofile.svg" />
+                        <img src="../src/assets/images/myprofile.svg" />
                         <span class="text">My Profile</span>
                     </div>
                 </a>
@@ -362,7 +362,7 @@
                                             ?>" data-tooltip="3">
                 <a href="manage-transcation.php" data-active="3">
                     <div class="icons">
-                        <img src="../src/assets/img/transaction.svg" />
+                        <img src="../src/assets/images/transaction.svg" />
                         <span class="text">Manage Transaction</span>
                     </div>
                 </a> 
@@ -376,7 +376,7 @@
                                             ?>">
                 <a href="manage-contact.php" aria-expanded="false" class="dropdown-toggle">
                     <div class="icons">
-                        <img src="../src/assets/img/customer-list-line-svgrepo-com.svg" />
+                        <img src="../src/assets/images/customer-list-line-svgrepo-com.svg" />
                         <span class="text">Manage Contact Us</span>
                     </div>
                 </a>
@@ -388,7 +388,7 @@
                                             ?>" data-tooltip="3">
                 <a href="manage-role.php" data-active="3">
                     <div class="icons">
-                        <img src="../src/assets/img/users-svgrepo-com.svg" />
+                        <img src="../src/assets/images/users-svgrepo-com.svg" />
                         <span class="text">Manage Roles</span>
                     </div>
                 </a>
