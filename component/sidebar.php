@@ -14,7 +14,7 @@
                                 <div class="notify-content">
                                     <div class="msg-title">
                                         <h3>Notifications</h3>
-                                        <a href="#">Viewall</a>
+                                        <a href="#">Viewal</a>
                                     </div>
                                     <div class="divider"></div>
                                     <h4>Lorem ipsum</h4>
