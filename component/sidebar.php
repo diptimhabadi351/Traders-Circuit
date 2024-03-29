@@ -13,8 +13,8 @@
                             <div class="dropdown-item">
                                 <div class="notify-content">
                                     <div class="msg-title">
-                                        <h3>Notifications</h3>
-                                        <a href="#">Viewal</a>
+                                        <h3>Notifications gt </h3>
+                                        <a href="#">Viewal </a>
                                     </div>
                                     <div class="divider"></div>
                                     <h4>Lorem ipsum</h4>
