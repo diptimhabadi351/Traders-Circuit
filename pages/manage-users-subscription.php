@@ -1,4 +1,4 @@
-<?php $currentPage = "manage-users" ?>
+<?php $currentPage = "manage-users-subscription" ?>
 <?php include('../component/header.php'); ?>
 <?php include('../component/sidebar.php'); ?>
 <?php include('../component/common-modal.php'); ?>
@@ -45,8 +45,15 @@
                     <div class="top-tabel">
                         <div class="row">
                             <div class="col-md-4 left">
-                                <h6 class="card-title">Manage Users</h6>
-                            </div
+                                <h6 class="card-title">
+                                    <a href="manage-users.php">
+                                        <img src="../src/assets/images/arrow-left.svg" alt="">
+                                    </a>
+                                    Manage Users / Subscriptions
+                                </h6>
+                            </div>
+                            <div class="col-md-8 float-right">
+                            </div>
                         </div>
                     </div>
                     <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
@@ -93,10 +100,16 @@
                                                                 </div>
 
                                                                 <div class="dropdown-menu position-absolute" aria-labelledby="actionDropdown">
-                                                                    <div class="dropdown-item"><a href="#"><span>By Product</span></a></div>
+                                                                    <!-- <div class="dropdown-item"><a href="#"><span>By Product</span></a></div>
                                                                     <div class="dropdown-item"><a href="#"><span>Tenure</span></a></div>
                                                                     <div class="dropdown-item"><a href="#"> <span>Location</span></a></div>
-                                                                    <div class="dropdown-item"><a href="#"> <span>Renewal Day</span></a></div>
+                                                                    <div class="dropdown-item"><a href="#"> <span>Renewal Day</span></a></div> -->
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                                                        <label class="form-check-label" for="invalidCheck2">
+                                                                            Agree to terms and conditions
+                                                                        </label>
+                                                                    </div>
                                                                 </div>
                                                         </li>
                                                     </ul>
@@ -105,54 +118,33 @@
                                                     <i class="fa fa-trash" aria-hidden="true"></i>
                                                 </a>
                                             </div>
-                                            <table id="user-listtab"  class="table dt-table-hover" style="width:100%">
+                                            <table id="user-listtab" class="table dt-table-hover" style="width:100%">
                                                 <thead class="text-center">
                                                     <tr>
                                                         <th class="checkbox-column dt-no-sorting">Sr.no</th>
-                                                        <th class="">Name</th>
-                                                        <th class="">Location</th>
-                                                        <th>Email</th>
-                                                        <th>Phone</th>
-                                                        <th>Tenure</th>
-                                                        <th>Renewal</th>
-                                                        <th class="no-content">Action</th>
+                                                        <th class="">Name of Product</th>
+                                                        <th class="">Date of Purchase</th>
+                                                        <th>Subscription Tier</th>
+                                                        <th>Subscription Amount</th>
+                                                        <th>Expiry Date</th>
+                                                        <th>Mail Invoice</th>
+                                                        <th class="no-content">Download Invoice</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody class="text-center">
                                                     <?php for ($x = 0; $x <= 6; $x++) { ?>
                                                         <tr>
                                                             <td class="checkbox-column"><?php echo $x + 1 ?></td>
-                                                            <td>Raj Shinde</td>
-                                                            <td>Mumbai</td>
-                                                            <td>rajshinde9@gmail.com</td>
-                                                            <td>***5461**</td>
+                                                            <td>Multibagger</td>
+                                                            <td>28/03/24</td>
                                                             <td>Monthly</td>
-                                                            <td>7 days Left</td>
+                                                            <td>1500</td>
+                                                            <td>24/03/24</td>
                                                             <td>
-                                                                <div class="actions-btn">
-                                                                    <a href="manage-users-subscription.php" class="subs-btn">Subscriptions</a>
-                                                                    <a href="manage_users_view.php">
-                                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                                    </a>
-
-                                                                    <a href="manage_users_edit.php">
-                                                                        <svg class="svg-inline--fa fa-pen-to-square" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="pen-to-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
-                                                                            <path fill="currentColor" d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.8 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z">
-                                                                            </path>
-                                                                        </svg>
-                                                                    </a>
-
-                                                                    <!-- <li>
-                                                                            <a class="" data-toggle="modal" data-target="#caregiver-suspend-modal">
-
-                                                                                <i class="fa fa-pause-circle" aria-hidden="true"></i>
-                                                                                <span>Delete</span>
-                                                                            </a>
-                                                                        </li> -->
-
-
-                                                                    </ul>
-                                                                </div>
+                                                                <img src="../src/assets/images/mail.svg" width="20px" height="20px" alt="">
+                                                            </td>
+                                                            <td>
+                                                                <img src="../src/assets/images/download.svg" width="20px" height="20px" alt="">
                                                             </td>
                                                         </tr>
                                                     <?php } ?>

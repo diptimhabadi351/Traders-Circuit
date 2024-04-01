@@ -31,6 +31,14 @@ h6.card-title {
     font-size: 18px;
     font-weight: bold;
     color: #000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+h6.card-title img {
+    width: 18px;
+    height: 18px;
 }
 
 .user-details img {
@@ -335,14 +343,14 @@ ul#myTab {
 }
 
 .simple-tab li.nav-item {
-    width: 50%;
-    text-align: center;
+    /* width: 50%; */
+    /* text-align: center; */
 }
 
 .simple-tab button {
     width: 100%;
-    font-weight: bold;
-    font-size: 18px;
+    /* font-weight: bold; */
+    font-size: 14px;
 }
 
 .simple-tab li.nav-item .nav-link.active {
@@ -1355,4 +1363,54 @@ label {
 
 .editor-quill {
     height: 100px;
+}
+
+.simple-tab .subscribes_tab li.nav-item .nav-link.active {
+    border: none;
+    background-color: #9A0000;
+    color: #fff;
+}
+
+.simple-tab .subscribes_tab li.nav-item .nav-link {
+    border: 0.5px solid #aaa;
+    border-radius: 6px;
+}
+
+.subscribes_tab {
+    gap: 15px;
+    border: none;
+}
+
+.actions-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.actions-btn a {
+    border: 1px solid #aaa;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.actions-btn a svg {
+    width: 15px;
+    height: 15px;
+
+}
+
+.manage-user-tabs {
+    position: relative;
+}
+
+.manage-user-tabs .user-filter-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.manage-user-tabs .user-filter-div .manage-del {
+    border: 1px solid #aaa;
+    padding: 8px 12px;
+    border-radius: 6px;
 }
