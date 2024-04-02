@@ -15,7 +15,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   background-color: var(--main-color);
   width: 16rem;
   padding: 15px;
@@ -25,7 +25,7 @@ nav {
   transition: width 0.5s ease-in-out;
   background-color: #fff;
   box-shadow: 1px 1px 10px 5px #f1f1f1b8;
-  overflow: hidden;
+  overflow: visible;
 }
 
 nav::before {
@@ -103,7 +103,7 @@ main .copyright span {
 }
 
 .shrink-btn:hover {
-  background-color: #05244d;
+  background-color: #9b00005e;
 }
 
 nav:hover .shrink-btn,
@@ -151,7 +151,7 @@ nav:hover .shrink-btn,
   padding: 2.5px 0;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .sidebar-links a {
@@ -427,9 +427,11 @@ body.shrink .tooltip {
   /* transition: 5s ease-in-out; */
   padding-left: 5px;
   line-height: normal;
+  font-size: 15px;
 }
 .sidebar-links ul .dropdown-btn-users .icons span {
   padding-left: 5px;
+  font-size: 16px;
 }
 .shrink .sidebar-links a .icons {
   display: flex;
@@ -575,7 +577,7 @@ span.tms {
   white-space: normal !IMPORTANT;
 }
 .dropdown-container .tooltip-element a {
-  padding-left: 40px;
+  padding-left: 36px;
   position: relative;
 }
 
@@ -588,5 +590,5 @@ span.tms {
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
-  left: 30px;
+  left: 25px;
 }

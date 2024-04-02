@@ -13,57 +13,10 @@
 <!--  END LOADER -->
 
 <div class="auth-container d-flex signup">
-    <!-- <div class="container mx-auto align-self-center">
-        <div class="card">
-            <div class="card-body row">
-                <div class=" col-md-6 m-auto">
-                    <h1 class="text-center font-weight-bold">Cheers to the Season</h1>
-                    <h4 class="text-center font-weight-bold">Login to your account </h4>
-                </div>
-                <div class=" col-md-6 m-auto">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <label class="form-label">Email</label>
-                                <input type="email" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="mb-3">
-                                <label class="form-label">Password</label>
-                                <input type="password" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="mb-3 chekbx">
-                                <div class="form-check form-check-primary form-check-inline">
-                                    <input class="form-check-input me-3" type="checkbox" id="form-check-default">
-                                    <label class="form-check-label" for="form-check-default">
-                                        Keep me signed in
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="mb-3 fgtps">
-                                <a href="forgot-password.php">Forgot Password?</a>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div>
-                                <button><a href="2-step-verification.php" class="download-btn w-100">Login</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div class="row w-100" style="height: 100vh;">
         <div class=" col-md-6 m-auto h-100 d-flex flex-column align-itms-center justify-content-center" style="background-color: #9A0000;">
             <div class="d-flex justify-content-center">
-                <img src="../src/assets/img/tc-logo.png" width="450" height="80" alt="">
+                <img src="../src/assets/images/tc-logo-white.png" width="450" height="50" alt="">
             </div>
         </div>
         <div class=" col-md-6 h-100 d-flex justify-content-center align-items-center login-background-img" style="background-image: url(../src/assets/img/tc-signup.png);">

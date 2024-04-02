@@ -1,8 +1,6 @@
 <?php $currentPage = "manage-caregiver" ?>
 <?php include('../component/header.php'); ?>
 <?php include('../component/sidebar.php'); ?>
-<link rel="stylesheet" type="text/css" href="../src/plugins/src/table/datatable/datatables.css">
-<link rel="stylesheet" type="text/css" href="../src/plugins/css/light/table/datatable/dt-global_style.css">
 
 
 <!-- BEGIN LOADER -->
@@ -162,7 +160,7 @@
 <!-- END MAIN CONTAINER -->
 
 <?php include '../component/footer.php'; ?>
-<script src="../src/plugins/src/table/datatable/datatables.js"></script>
+
 <script>
     $('#zero-config').DataTable({
         "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +

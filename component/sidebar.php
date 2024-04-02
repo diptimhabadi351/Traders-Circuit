@@ -62,10 +62,10 @@
         <span class="shrink-btn">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
         </span>
-        <img src="../src/assets/images/seasons_logo.png" class="logo" alt="">
+        <!-- <img src="../src/assets/images/seasons_logo.png" class="logo" alt=""> -->
         <h3 class="hide">Trader's Circuit</h3>
     </div>
-    <div class="sidebar-links" style="overflow: scroll;">
+    <div class="sidebar-links">
         <ul>
             <div class="active-tab"></div>
             <li class="tooltip-element <?php
@@ -80,59 +80,6 @@
                     </div>
                 </a>
             </li>
-
-            <!-- <button class="dropdown-btn-users mb-1">
-                <div class="icons d-flex align-items-center justify-content-start w-100">
-                    <img src="../src/assets/images/Group 57904.svg" />
-                    <span class="text-1">Manage Users</span>
-                </div>
-                <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
-            </button> -->
-
-            <!-- <div class="dropdown-container">
-                <ul>
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'manage-patient') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
-                        <a href="manage-customers.php" data-active="1">
-                            <div class="icons">
-                                <img src="../src/assets/images/single-user.svg" />
-                                <span class="text">Customer App</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'restaurant-app') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
-                        <a href="manage-restraunts.php" data-active="1">
-                            <div class="icons">
-                                <img src="../src/assets/images/restraunt.svg" />
-                                <span class="text">Restaurant App</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'sub-admins') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
-                        <a href="manage-subadmins.php" data-active="1">
-                            <div class="icons">
-                                <img src="../src/assets/images/Group 57906.svg">
-                                <span class=" text">Sub Admins</span>
-                            </div>
-                        </a>
-                    </li>
-
-                </ul>
-            </div> -->
-
             <li class="tooltip-element <?php
                                         if ($currentPage == 'manage-users') {
                                             echo 'active';
@@ -159,35 +106,8 @@
                 </a>
             </li>
 
-            <!-- <li class="tooltip-element <?php
-                                            if ($currentPage == 'manage-vouchers') {
-                                                echo 'active';
-                                            }
-                                            ?>" data-tooltip="3">
-                <a href="manage-vouchers.php" data-active="3">
-                    <div class="icons">
-                        <img src="../src/assets/images/fluent-mdl2_coupon.svg" />
-                        <span class="text">Manage Vouchers</span>
-                    </div>
-                </a>
-            </li> -->
-
-            <!-- <li class="tooltip-element <?php
-                                            if ($currentPage == 'manage-contact') {
-                                                echo 'active';
-                                            }
-                                            ?>" data-tooltip="4">
-                <a href="manage-contact.php" data-active="4">
-                    <div class="icons">
-                        <img src="../src/assets/images/call(1) 3.svg" />
-                        <span class="text">Manage Contact Us</span>
-                    </div>
-                </a>
-            </li> -->
-
-
-
-            <button class="dropdown-btn-users mb-1">
+           
+            <button class="dropdown-btn-users mb-1 <?php if ($currentPage == 'manage-cms') {echo 'active';}?>">
                 <div class="icons d-flex align-items-center justify-content-start w-100">
                     <img src="../src/assets/images/m-cms.svg" />
                     <span class="text-1">Manage CMS</span>
@@ -197,80 +117,56 @@
 
             <div class="dropdown-container">
                 <ul>
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'manage-news') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
-                        <a href="manage-news.php" data-active="1">
+                    <li class="tooltip-element" data-tooltip="1">
+                        <a href="../pages/manage-cms/about.php" data-active="1">
                             <div class="icons">
                                 <!-- <img src="../src/assets/images/article 1.svg" /> -->
-                                <span class="text">News & Article</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'manage-newsletter') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
-                        <a href="manage-newsletter.php" data-active="1">
-                            <div class="icons">
-                                <!-- <img src="../src/assets/images/quill_inbox-newsletter.svg" /> -->
-                                <span class="text">Newsletter</span>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'manage-aboutus') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
-                        <a href="manage-aboutus.php" data-active="1">
-                            <div class="icons">
-                                <!-- <img src="../src/assets/images/user (2) 1.svg" /> -->
                                 <span class="text">About Us</span>
                             </div>
                         </a>
                     </li>
 
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'manage-terms') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
+                    <li class="tooltip-element ">
+                        <a href="manage-newsletter.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/quill_inbox-newsletter.svg" /> -->
+                                <span class="text">Manage FAQ</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="tooltip-element ">
+                        <a href="manage-aboutus.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/user (2) 1.svg" /> -->
+                                <span class="text">Manage Terms & Condition</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="tooltip-element " data-tooltip="1">
                         <a href="manage-terms.php" data-active="1">
                             <div class="icons">
                                 <!-- <img src="../src/assets/images/contract 1.svg" /> -->
-                                <span class="text">Terms & Conditions</span>
+                                <span class="text">Manage Privacy Policy </span>
                             </div>
                         </a>
                     </li>
 
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'manage-faq') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
+                    <li class="tooltip-element " data-tooltip="1">
                         <a href="manage-faq.php" data-active="1">
                             <div class="icons">
                                 <!-- <img src="../src/assets/images/conversation 3.svg" /> -->
-                                <span class="text">FAQ</span>
+                                <span class="text">Manage Feedback</span>
                             </div>
                         </a>
                     </li>
 
-                    <li class="tooltip-element <?php
-                                                if ($currentPage == 'manage-privacy') {
-                                                    echo 'active';
-                                                }
-                                                ?>" data-tooltip="1">
+                    <li class="tooltip-element" data-tooltip="1">
                         <a href="manage-privacy.php" data-active="1">
                             <div class="icons">
                                 <!-- <img src="../src/assets/images/privacy.svg" /> -->
-                                <span class="text">Privacy Policy</span>
+                                <span class="text">Manage Content Bytes</span>
                             </div>
                         </a>
                     </li>

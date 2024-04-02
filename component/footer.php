@@ -32,6 +32,7 @@
 <script src="../src/plugins/src/filepond/filepondPluginFileValidateSize.min.js"></script>
 <script src="../src/plugins/src/filepond/custom-filepond.js"></script>
 <script src="https://cdn.ckeditor.com/4.8.0/full-all/ckeditor.js"></script>
+<script src="../src/plugins/src/table/datatable/datatables.js"></script>
 
 <!-- added by abhishek -->
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
