@@ -1205,6 +1205,16 @@ a.download-btn-custom {
 .sidebar-links ul .dropdown-btn-users:hover .icons img {
     filter: brightness(1) invert(3);
 }
+.sidebar-links ul .dropdown-btn-users.active {
+    color: #fff;
+    background: #9A0000;
+}
+.widget-content {
+    padding: 15px !important;
+}
+.sidebar-links ul .dropdown-btn-users.active .icons img {
+    filter: brightness(1) invert(3);
+}
 
 .sidebar-links ul .dropdown-container {
     display: none;
