@@ -388,7 +388,7 @@ body.shrink .tooltip {
 }
 .shrink .header-container {
   width: calc(100% - 143px);
-  left: 122px;
+  left: 100px;
 }
 .shrink .shrink-btn {
   font-size: 10px;
