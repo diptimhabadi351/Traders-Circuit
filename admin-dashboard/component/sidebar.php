@@ -1,4 +1,4 @@
-<div class="header-container container-xxl">
+<div class="header-container container">
     <header class="header navbar navbar-expand-sm expand-header">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -68,11 +68,7 @@
     <div class="sidebar-links">
         <ul>
             <div class="active-tab"></div>
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'dashboard') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="0">
+            <li class="tooltip-element <?php if ($currentPage == 'dashboard') {echo 'active';}?>" data-tooltip="0">
                 <a href="index.php" data-active="0">
                     <div class="icons">
                         <img src="../src/assets/images/dashboard.svg" />
@@ -80,11 +76,7 @@
                     </div>
                 </a>
             </li>
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-users') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="2">
+            <li class="tooltip-element <?php if ($currentPage == 'manage-users') { echo 'active';}?>" data-tooltip="2">
                 <a href="manage-users.php" data-active="2">
                     <div class="icons">
                         <img src="../src/assets/images/m-users.svg" />
@@ -93,11 +85,7 @@
                 </a>
             </li>
 
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-products') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="2">
+            <li class="tooltip-element <?php if ($currentPage == 'manage-products') { echo 'active';}?>" data-tooltip="2">
                 <a href="manage-products.php" data-active="2">
                     <div class="icons">
                         <img src="../src/assets/images/m-products.svg" />
@@ -106,8 +94,7 @@
                 </a>
             </li>
 
-           
-            <button class="dropdown-btn-users mb-1 <?php if ($currentPage == 'manage-cms') {echo 'active';}?>">
+            <button class="dropdown-btn-users mb-1 <?php if ($currentPage == 'manage-cms') {echo 'active';} ?>">
                 <div class="icons d-flex align-items-center justify-content-start w-100">
                     <img src="../src/assets/images/m-cms.svg" />
                     <span class="text-1">Manage CMS</span>
@@ -170,16 +157,10 @@
                             </div>
                         </a>
                     </li>
-
-
                 </ul>
             </div>
 
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-reports') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="5">
+            <li class="tooltip-element <?php if ($currentPage == 'manage-reports') {echo 'active';}?>" data-tooltip="5">
                 <a href="manage-reports.php" data-active="5">
                     <div class="icons">
                         <img src="../src/assets/images/m-subadmins.svg" />
@@ -188,11 +169,7 @@
                 </a>
             </li>
 
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-feedback') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="6">
+            <li class="tooltip-element <?php if ($currentPage == 'manage-feedback') {echo 'active';}?>" data-tooltip="6">
                 <a href="manage-feedback.php" data-active="6">
                     <div class="icons">
                         <img src="../src/assets/images/m-thirdparties.svg" />
@@ -200,24 +177,36 @@
                     </div>
                 </a>
             </li>
+            <button class="dropdown-btn-users mb-1 <?php if ($currentPage == 'manage-notification') {echo 'active';} ?>">
+                <div class="icons d-flex align-items-center justify-content-start w-100">
+                    <img src="../src/assets/images/m-cms.svg" />
+                    <span class="text-1">Manage Notification</span>
+                </div>
+                <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
+            </button>
+            <div class="dropdown-container">
+                <ul>
+                    <li class="tooltip-element" data-tooltip="1">
+                        <a href="../pages/manage-notification/push-notification.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/article 1.svg" /> -->
+                                <span class="text">Push Notification</span>
+                            </div>
+                        </a>
+                    </li>
 
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-notification') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="6">
-                <a href="manage-notification.php" data-active="6">
-                    <div class="icons">
-                        <img src="../src/assets/images/m-noti.svg" />
-                        <span class="text">Manage Notification</span>
-                    </div>
-                </a>
-            </li>
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-notification') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="6">
+                    <li class="tooltip-element ">
+                        <a href="../pages/manage-notification/inapp-notification.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/quill_inbox-newsletter.svg" /> -->
+                                <span class="text">In App Notification</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <li class="tooltip-element <?php if ($currentPage == 'manage-notification') {echo 'active';}?>" data-tooltip="6">
                 <a href="manage-notification.php" data-active="6">
                     <div class="icons">
                         <img src="../src/assets/images/m-reco.svg" />
@@ -225,11 +214,7 @@
                     </div>
                 </a>
             </li>
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-contact') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="6">
+            <li class="tooltip-element <?php if ($currentPage == 'manage-contact') {echo 'active';}?>" data-tooltip="6">
                 <a href="manage-contact.php" data-active="6">
                     <div class="icons">
                         <img src="../src/assets/images/m-contact.svg" />
@@ -238,12 +223,7 @@
                 </a>
             </li>
 
-
-            <li class="tooltip-element <?php
-                                        if ($currentPage == 'manage-subscription') {
-                                            echo 'active';
-                                        }
-                                        ?>" data-tooltip="3">
+            <li class="tooltip-element <?php if ($currentPage == 'manage-subscription') {echo 'active';}?>" data-tooltip="3">
                 <a href="manage-subscription.php" data-active="3">
                     <div class="icons">
                         <img src="../src/assets/images/myprofile.svg" />
@@ -251,44 +231,7 @@
                     </div>
                 </a>
             </li>
-            <!-- <li class="tooltip-element <?php
-                                            if ($currentPage == 'manage-transcation') {
-                                                echo 'active';
-                                            }
-                                            ?>" data-tooltip="3">
-                <a href="manage-transcation.php" data-active="3">
-                    <div class="icons">
-                        <img src="../src/assets/images/transaction.svg" />
-                        <span class="text">Manage Transaction</span>
-                    </div>
-                </a> 
-            </li>-->
-
-
-            <!-- <li class="tooltip-element <?php
-                                            if ($currentPage == 'manage-contact') {
-                                                echo 'active';
-                                            }
-                                            ?>">
-                <a href="manage-contact.php" aria-expanded="false" class="dropdown-toggle">
-                    <div class="icons">
-                        <img src="../src/assets/images/customer-list-line-svgrepo-com.svg" />
-                        <span class="text">Manage Contact Us</span>
-                    </div>
-                </a>
-            </li> -->
-            <!-- <li class="tooltip-element <?php
-                                            if ($currentPage == 'manage-role') {
-                                                echo 'active';
-                                            }
-                                            ?>" data-tooltip="3">
-                <a href="manage-role.php" data-active="3">
-                    <div class="icons">
-                        <img src="../src/assets/images/users-svgrepo-com.svg" />
-                        <span class="text">Manage Roles</span>
-                    </div>
-                </a>
-            </li> -->
+           
 
 
         </ul>
