@@ -17,7 +17,7 @@
     <link href="../src/assets/css/light/custom.css" rel="stylesheet" type="text/css">
     <link href="../src/assets/css/light/main.css" rel="stylesheet" type="text/css">
     <link href="../src/assets/css/light/scrollspyNav.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
     <link href="../src/assets/css/light/components/list-group.css" rel="stylesheet" type="text/css">
     <link href="../src/assets/css/light/dashboard/dash_2.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../src/plugins/src/tagify/tagify.css">
@@ -33,7 +33,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../src/plugins/src/table/datatable/datatables.css">
-<link rel="stylesheet" type="text/css" href="../src/plugins/css//light/table/datatable/dt-global_style.css">
+    <link rel="stylesheet" type="text/css" href="../src/plugins/css//light/table/datatable/dt-global_style.css">
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="../src/assets/css/light/apps/chat.css" rel="stylesheet" type="text/css" />
+    <link href="../src/assets/css/dark/apps/chat.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../src/plugins/src/stepper/bsStepper.min.css">
+    <link rel="stylesheet" type="text/css" href="../src/plugins/css/light/stepper/custom-bsStepper.css">
+
+    <!-- END PAGE LEVEL STYLES -->
 
 </head>
 

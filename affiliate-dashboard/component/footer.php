@@ -1,4 +1,3 @@
-
 <script type="text/javascript" src="../layouts/css/light/loader.css"></script>
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -31,6 +30,13 @@
 <!-- added by abhishek -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="../src/assets/js/apps/chat.js"></script>
+<script src="../src/plugins/src/stepper/bsStepper.min.js"></script>
+<script src="../src/plugins/src/stepper/custom-bsStepper.min.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script>src="https:cdnjs.//cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"</script>
+
 </body>
 
 </html>
