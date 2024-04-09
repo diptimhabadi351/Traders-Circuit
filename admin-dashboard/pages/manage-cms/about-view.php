@@ -23,7 +23,8 @@
                         <div class="widget-content widget-content-area br-8 position-btn">
                             <div class="breadcrumb">
                                 <a href="">Manage CMS / </a>
-                                <a href="" class="ml-1"> Manage About Us</a>
+                                <a href="" class="ml-1"> Manage About Us / </a>
+                                <a href="" class="ml-1"> View</a>
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
@@ -31,7 +32,6 @@
                                 </div>
                             </div>
                             <div class="about-content">
-
                                 <p>Aenean non tempor justo. Donec faucibus sapien a urna interdum porta. Quisque fermentum nisi felis, quis aliquam quam volutpat porta. Nullam aliquet scelerisque massa, quis tincidunt velit.</p>
                                 <p>Vivamus semper placerat ornare. Maecenas eget accumsan eros. Donec non felis vitae tortor elementum euismod sit amet vitae risus. Nam nunc turpis, porttitor ut tempor eu, efficitur necrisus.</p>
                                 <br>
@@ -77,6 +77,7 @@
                             </div>
                             <div class="dashboard-btns">
                                 <a href="../../admin-dashboard/pages/manage-cms/about-edit.php" class="border-btn">Edit</a>
+                                <a href="../../admin-dashboard/pages/manage-cms/about.php" class="reds-btns">Publish</a>
                             </div>
                         </div>
                     </div>

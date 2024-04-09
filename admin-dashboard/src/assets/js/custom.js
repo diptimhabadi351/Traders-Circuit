@@ -1,14 +1,12 @@
-document.querySelector('table').onclick = ({
-    target
-  }) => {
-    if (!target.classList.contains('more')) return
-    document.querySelectorAll('.dropout.active').forEach(
-      (d) => d !== target.parentElement && d.classList.remove('active')
-    )
-    target.parentElement.classList.toggle('active')
-  }
-// tags-js
+// datatable-dropdown
+$(document).on("click", ".checkbox-dropdown", function() {
+  $(this).toggleClass("is-active");
+});
 
+$(document).on("click", ".checkbox-dropdown ul", function(e) {
+  e.stopPropagation();
+});
+// datatable-dropdown
 // The DOM element you wish to replace with Tagify
 var input = document.querySelector('input[name=basic]');
 
@@ -21,17 +19,17 @@ new Tagify(input)
 CKEDITOR.replace('editor', {
   skin: 'moono',
   enterMode: CKEDITOR.ENTER_BR,
-  shiftEnterMode:CKEDITOR.ENTER_P,
-  toolbar: [{ name: 'basicstyles', groups: [ 'basicstyles' ], items: [ 'Bold', 'Italic', 'Underline', "-", 'TextColor', 'BGColor' ] },
-             { name: 'styles', items: [ 'Format', 'Font', 'FontSize' ] },
-             { name: 'scripts', items: [ 'Subscript', 'Superscript' ] },
-             { name: 'justify', groups: [ 'blocks', 'align' ], items: [ 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock' ] },
-             { name: 'paragraph', groups: [ 'list', 'indent' ], items: [ 'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent'] },
-             { name: 'links', items: [ 'Link', 'Unlink' ] },
-             { name: 'insert', items: [ 'Image'] },
-             { name: 'spell', items: [ 'jQuerySpellChecker' ] },
-             { name: 'table', items: [ 'Table' ] }
-             ],
+  shiftEnterMode: CKEDITOR.ENTER_P,
+  toolbar: [{ name: 'basicstyles', groups: ['basicstyles'], items: ['Bold', 'Italic', 'Underline', "-", 'TextColor', 'BGColor'] },
+  { name: 'styles', items: ['Format', 'Font', 'FontSize'] },
+  { name: 'scripts', items: ['Subscript', 'Superscript'] },
+  { name: 'justify', groups: ['blocks', 'align'], items: ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'] },
+  { name: 'paragraph', groups: ['list', 'indent'], items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent'] },
+  { name: 'links', items: ['Link', 'Unlink'] },
+  { name: 'insert', items: ['Image'] },
+  { name: 'spell', items: ['jQuerySpellChecker'] },
+  { name: 'table', items: ['Table'] }
+  ],
 });
 
 // cka-editor
