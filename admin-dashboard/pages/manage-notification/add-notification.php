@@ -118,28 +118,30 @@
                                                             <label for="company-name" class="label">Custom time per user time zone</label>
                                                         </div>
                                                         <!-- onclick hide this div -->
-                                                        <div class="radio-btn-checkbox">
-                                                            <div class="form-group checkbox-btsss">
-                                                                <input type="checkbox" class="form-control" value="Lorem ipsum">
-                                                                <label class="label">Subscribed</label>
+                                                        <div class="contents" >
+                                                            <div class="radio-btn-checkbox">
+                                                                <div class="form-group checkbox-btsss">
+                                                                    <input type="checkbox" class="form-control" value="Lorem ipsum">
+                                                                    <label class="label">Subscribed</label>
+                                                                </div>
+                                                                <div class="form-group checkbox-btsss">
+                                                                    <input type="checkbox" class="form-control" value="Lorem ipsum">
+                                                                    <label class="label">Unsubscribed</label>
+                                                                </div>
                                                             </div>
                                                             <div class="form-group checkbox-btsss">
-                                                                <input type="checkbox" class="form-control" value="Lorem ipsum">
-                                                                <label class="label">Unsubscribed</label>
+                                                                <input type="time" class="form-control" value="March 28, 2024">
                                                             </div>
-                                                        </div>
-                                                        <!-- onclick hide this div -->
-                                                        <div class="form-group checkbox-btsss">
-                                                            <input type="time" class="form-control" value="March 28, 2024 / 5:42 PM">
+                                                            <!-- onclick hide this div -->
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
-                                                           <!-- onclick hide this div -->
+                                                        <!-- onclick hide this div -->
                                                         <div class="schedule-content">
                                                             <i class="fa fa-info"></i>
                                                             <p>Message will start sending Thursday, March 28, 2024 5:42 PM UTC+05:30 and will send when it is 5:44 PM in each user's timezone</p>
                                                         </div>
-                                                           <!-- onclick hide this div -->
+                                                        <!-- onclick hide this div -->
                                                     </div>
                                                 </div>
                                             </div>
@@ -163,3 +165,4 @@
 </div>
 
 <?php include '../../component/footer.php'; ?>
+

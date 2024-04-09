@@ -1,13 +1,7 @@
-<div class="footer-wrapper">
-    <div class="footer-section f-section-1">
-        <p class="">Copyright © <span class="dynamic-year">2022</span>All rights reserved.</p>
-    </div>
-</div>
 <script src="../layouts/loader.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script src="../src/plugins/src/global/vendors.min.js"></script>
 <script src="../src/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="../src/plugins/src/perfect-scrollbar/perfect-scrollbar.min.js"></script>
@@ -32,12 +26,13 @@
 <script src="../src/plugins/src/filepond/custom-filepond.js"></script>
 <script src="https://cdn.ckeditor.com/4.8.0/full-all/ckeditor.js"></script>
 <script src="../src/plugins/src/table/datatable/datatables.js"></script>
-<script src="../src/plugins/src/tagify/tagify.min.js"></script>
 
 
 <!-- added by abhishek -->
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+
 </body>
 
 </html>
