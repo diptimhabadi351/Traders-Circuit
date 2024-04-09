@@ -47,8 +47,13 @@
                                         <table id="all" class="table style-3 dt-table-hover">
                                             <thead>
                                                 <tr>
+                                                    <th class="checkbox-column dt-no-sorting sorting_asc text-center" rowspan="1" colspan="1" aria-label=" Record Id " style="width: 70px;">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input chk-parent" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </th>
                                                     <th class="text-center">Sr no</th>
-                                                    <th class="text-left">Name</th>
+                                                    <th class="text-center">Name</th>
                                                     <th class="text-center">Created At</th>
                                                     <th class="text-center">Sent</th>
                                                     <th class="text-center">Clicked</th>
@@ -57,6 +62,11 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">1</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -67,6 +77,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -77,6 +92,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">3</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -87,6 +107,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">4</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -97,6 +122,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">6</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -107,6 +137,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">5</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -123,8 +158,13 @@
                                         <table id="sent" class="table style-3 dt-table-hover">
                                             <thead>
                                                 <tr>
+                                                <th class="checkbox-column dt-no-sorting sorting_asc text-center" rowspan="1" colspan="1" aria-label=" Record Id " style="width: 70px;">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input chk-parent" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </th>
                                                     <th class="text-center">Sr no</th>
-                                                    <th class="text-left">Name</th>
+                                                    <th class="text-center">Name</th>
                                                     <th class="text-center">Created At</th>
                                                     <th class="text-center">Sent</th>
                                                     <th class="text-center">Clicked</th>
@@ -133,6 +173,11 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">1</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -143,6 +188,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -153,6 +203,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">3</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -163,6 +218,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">4</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -173,6 +233,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">6</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -183,6 +248,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">5</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -199,8 +269,13 @@
                                         <table id="scheduled" class="table style-3 dt-table-hover">
                                             <thead>
                                                 <tr>
+                                                <th class="checkbox-column dt-no-sorting sorting_asc text-center" rowspan="1" colspan="1" aria-label=" Record Id " style="width: 70px;">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input chk-parent" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </th>
                                                     <th class="text-center">Sr no</th>
-                                                    <th class="text-left">Name</th>
+                                                    <th class="text-center">Name</th>
                                                     <th class="text-center">Created At</th>
                                                     <th class="text-center">Sent</th>
                                                     <th class="text-center">Clicked</th>
@@ -209,6 +284,11 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">1</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -219,6 +299,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -229,6 +314,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">3</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -239,6 +329,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">4</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -249,6 +344,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">6</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -259,6 +359,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">5</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -275,8 +380,13 @@
                                         <table id="draft" class="table style-3 dt-table-hover">
                                             <thead>
                                                 <tr>
+                                                <th class="checkbox-column dt-no-sorting sorting_asc text-center" rowspan="1" colspan="1" aria-label=" Record Id " style="width: 70px;">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input chk-parent" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </th>
                                                     <th class="text-center">Sr no</th>
-                                                    <th class="text-left">Name</th>
+                                                    <th class="text-center">Name</th>
                                                     <th class="text-center">Created At</th>
                                                     <th class="text-center">Sent</th>
                                                     <th class="text-center">Clicked</th>
@@ -285,6 +395,11 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">1</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -295,6 +410,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -305,6 +425,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">3</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -315,6 +440,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">4</td>
                                                     <td class="text-center">Welcome Message</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -325,6 +455,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">6</td>
                                                     <td class="text-center">New Feature</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -335,6 +470,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="checkbox-column sorting_1 text-center">
+                                                        <div class="form-check form-check-primary d-block new-control">
+                                                            <input class="form-check-input child-chk" type="checkbox" id="form-check-default">
+                                                        </div>
+                                                    </td>
                                                     <td class="text-center">5</td>
                                                     <td class="text-center">App Testing</td>
                                                     <td class="text-center">28/03/24, 1:59:46 pm</td>
@@ -362,11 +502,11 @@
 
 <script>
     $(document).ready(function() {
-        $('<button class="btns"><div class=row><div class=col-md-6></div><div class=col-md-6><div class="row top-btns"><div class=col-md-2></div><div class=col-md-4><div class=checkbox-dropdown>Filter <i class="fa fa-filter"aria-hidden=true></i><ul class=checkbox-dropdown-list><li><label><input name=city type=checkbox value=delivered>Delivered</label><li><label><input name=city type=checkbox value=pending>Pending</label></ul></div></div><div class=col-md-4><a class="border-btn add-btn mt-0"href=""><i class="fa fa-plus"></i>Add Notification</a></div><div class=col-md-2><a class="border-btn mt-0"href=""><i class="fa fa-trash"></i></a></div></div></div></div></button>').insertAfter(".dt--top-section");
+        $('<button class="btns"><div class=row><div class=col-md-6></div><div class=col-md-6><div class="row top-btns"><div class=col-md-2></div><div class=col-md-4><div class=checkbox-dropdown>Filter <i class="fa fa-filter"aria-hidden=true></i><ul class=checkbox-dropdown-list><li><label><input name=city type=checkbox value=delivered>Delivered</label><li><label><input name=city type=checkbox value=pending>Pending</label></ul></div></div><div class=col-md-4><a class="border-btn add-btn mt-0"href=""><i class="fa fa-plus"></i>Add Notification</a></div><div class=col-md-2><a class="border-btn mt-0"href="" data-toggle="modal" data-target="#delete-modal"><i class="fa fa-trash"></i></a></div></div></div></div></button>').insertAfter(".dt--top-section");
     });
 </script>
 <script>
-    c3 = $('#all, #sent').DataTable({
+    $('#all').DataTable({
         "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
             "<'table-responsive'tr>" +
             "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
@@ -375,18 +515,18 @@
                 "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>',
                 "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>'
             },
-            "sInfo": "Showing page _PAGE_ of _PAGES_",
+            "sInfo": "Showing page PAGE of _PAGES_",
             "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
             "sSearchPlaceholder": "Search...",
             "sLengthMenu": "Results :  _MENU_",
         },
         "stripeClasses": [],
-        "lengthMenu": [5, 10, 20, 50],
+        "lengthMenu": [7, 10, 20, 50],
         "pageLength": 10
     });
 </script>
 <script>
-    c3 = $('#scheduled, #draft').DataTable({
+    $('#sent').DataTable({
         "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
             "<'table-responsive'tr>" +
             "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
@@ -395,13 +535,53 @@
                 "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>',
                 "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>'
             },
-            "sInfo": "Showing page _PAGE_ of _PAGES_",
+            "sInfo": "Showing page PAGE of _PAGES_",
             "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
             "sSearchPlaceholder": "Search...",
             "sLengthMenu": "Results :  _MENU_",
         },
         "stripeClasses": [],
-        "lengthMenu": [5, 10, 20, 50],
+        "lengthMenu": [7, 10, 20, 50],
+        "pageLength": 10
+    });
+</script>
+<script>
+    $('#scheduled').DataTable({
+        "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
+            "<'table-responsive'tr>" +
+            "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
+        "oLanguage": {
+            "oPaginate": {
+                "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>',
+                "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>'
+            },
+            "sInfo": "Showing page PAGE of _PAGES_",
+            "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
+            "sSearchPlaceholder": "Search...",
+            "sLengthMenu": "Results :  _MENU_",
+        },
+        "stripeClasses": [],
+        "lengthMenu": [7, 10, 20, 50],
+        "pageLength": 10
+    });
+</script>
+<script>
+    $('#draft').DataTable({
+        "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
+            "<'table-responsive'tr>" +
+            "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
+        "oLanguage": {
+            "oPaginate": {
+                "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>',
+                "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>'
+            },
+            "sInfo": "Showing page PAGE of _PAGES_",
+            "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
+            "sSearchPlaceholder": "Search...",
+            "sLengthMenu": "Results :  _MENU_",
+        },
+        "stripeClasses": [],
+        "lengthMenu": [7, 10, 20, 50],
         "pageLength": 10
     });
 </script>

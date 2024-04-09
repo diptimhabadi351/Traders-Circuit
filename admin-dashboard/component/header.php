@@ -20,7 +20,7 @@
     <link href="../src/assets/css/light/main.css" rel="stylesheet" type="text/css">
     <link href="../src/assets/css/light/structure.css" rel="stylesheet" type="text/css">
     <link href="../src/assets/css/light/scrollspyNav.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" />
     <link href="../src/assets/css/light/components/list-group.css" rel="stylesheet" type="text/css">
     <link href="../src/assets/css/light/dashboard/dash_2.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../src/plugins/src/tagify/tagify.css">
@@ -35,11 +35,6 @@
     <!-- added by abhishek -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../src/plugins/src/table/datatable/datatables.css">
-<link rel="stylesheet" type="text/css" href="../src/plugins/css/light/table/datatable/dt-global_style.css">
-<link rel="stylesheet" type="text/css" href="../src/plugins/src/tagify/tagify.css">
-<link rel="stylesheet" type="text/css" href="../src/plugins/css/light/tagify/custom-tagify.css">
-<link rel="stylesheet" type="text/css" href="../src/assets/css/light/scrollspyNav.css" />
 
 
 
