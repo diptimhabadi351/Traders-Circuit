@@ -17,7 +17,7 @@
     <div class="chat-section layout-top-spacing mt-4">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12">
-                <div class="chat-system">
+                <div class="chat-system" style="width: 80%;margin: 0 auto;">
                     <div class="hamburger"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu mail-menu d-lg-none">
                             <line x1="3" y1="12" x2="21" y2="12"></line>
                             <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -33,7 +33,6 @@
                         <div class="chat-box-inner" style="height: 100%;">
                             <div class="chat-meta-user chat-active">
                                 <div class="current-chat-user-name"><span><img src="../src/assets/img/profile-3.jpeg" alt="dynamic-image"><span class="name">Sean Freeman</span></span></div>
-
                             </div>
                             <div class="chat-conversation-box ps ps--active-y">
                                 <div id="chat-conversation-box-scroll" class="chat-conversation-box-scroll">
@@ -85,60 +84,6 @@
                                             Not comming to office today.
                                         </div>
                                     </div>
-                                    <div class="chat" data-chat="person4">
-                                        <div class="conversation-start">
-                                            <span>Yesterday, 4:20 PM</span>
-                                        </div>
-                                        <div class="bubble you">
-                                            Hi, collect your check
-                                        </div>
-                                        <div class="bubble me">
-                                            Ok, I will be there in 10 mins
-                                        </div>
-                                    </div>
-                                    <div class="chat" data-chat="person5">
-                                        <div class="conversation-start">
-                                            <span>Today, 6:28 AM</span>
-                                        </div>
-                                        <div class="bubble you">
-                                            Hi
-                                        </div>
-                                        <div class="bubble you">
-                                            Uploaded files to server.
-                                        </div>
-                                    </div>
-                                    <div class="chat" data-chat="person6">
-                                        <div class="conversation-start">
-                                            <span>Monday, 1:27 PM</span>
-                                        </div>
-                                        <div class="bubble you">
-                                            Hi, I am back from vacation
-                                        </div>
-                                        <div class="bubble you">
-                                            How are you?
-                                        </div>
-                                        <div class="bubble me">
-                                            Welcom Back
-                                        </div>
-                                        <div class="bubble me">
-                                            I am all well
-                                        </div>
-                                        <div class="bubble you">
-                                            Coffee?
-                                        </div>
-                                    </div>
-                                    <div class="chat" data-chat="person7">
-                                    </div>
-                                    <div class="chat" data-chat="person8">
-                                    </div>
-                                    <div class="chat" data-chat="person9">
-                                    </div>
-                                    <div class="chat" data-chat="person10">
-                                    </div>
-                                    <div class="chat" data-chat="person11">
-                                    </div>
-                                    <div class="chat" data-chat="person12">
-                                    </div>
                                 </div>
                                 <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
                                     <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
@@ -162,10 +107,16 @@
                             <div class="chat-footer chat-active">
                                 <div class="chat-input">
                                     <form class="chat-form" action="javascript:void(0);">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square" style="color: #9A0000;">
                                             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                                         </svg>
                                         <input type="text" class="mail-write-box form-control" placeholder="Message">
+                                        <div class="send">
+                                        <svg width="28" height="28" viewBox="0 0 66 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M63.4845 36.397L29.1065 36.2614" stroke="#9A0000" stroke-width="3.55946" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M63.4833 36.4029L21.362 59.5187L29.1053 36.2674L21.2222 12.9544L63.4833 36.4029Z" stroke="#9A0000" stroke-width="3.55946" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        </div>
                                     </form>
                                 </div>
                             </div>

@@ -2,7 +2,7 @@
 <?php include('../../component/header.php') ?>
 <?php include('../../component/navbar.php') ?>
 
-<div class="main-sec reff-view">
+<div class="main-sec">
     <div class="row">
         <div class="col-md-4 left">
             <h6 class="card-title mt-4">
@@ -19,7 +19,7 @@
             <div class="noti-info">
                 <div class="name-time d-flex align-items-center justify-content-between">
                     <h5 class="">Kara Young</h5>
-                    <p>30mins ago</p>
+                    <p style="color: #9a0000;">30mins ago</p>
                 </div>
                 <p class="">Lorem ipsum is simple dummy</p>
             </div>
@@ -31,7 +31,7 @@
             <div class="noti-info">
                 <div class="name-time d-flex align-items-center justify-content-between">
                     <h5 class="">Kara Young</h5>
-                    <p>30mins ago</p>
+                    <p style="color: #9a0000;">30mins ago</p>
                 </div>
                 <p class="">Lorem ipsum is simple dummy</p>
             </div>
@@ -43,7 +43,7 @@
             <div class="noti-info">
                 <div class="name-time d-flex align-items-center justify-content-between">
                     <h5 class="">Kara Young</h5>
-                    <p>30mins ago</p>
+                    <p style="color: #9a0000;">30mins ago</p>
                 </div>
                 <p class="">Lorem ipsum is simple dummy</p>
             </div>

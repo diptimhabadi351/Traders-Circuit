@@ -4,6 +4,14 @@
 
 <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
     <div class="widget-content widget-content-area br-8 position-btn m-4">
+        <div class="col-md-4 left mb-4">
+            <h6 class="card-title">
+                <a href="inner-page/index.php">
+                    <img src="../src/assets/img/arrow-left.svg" alt="">
+                </a>
+                Payment /  List of Transaction
+            </h6>
+        </div>
         <div class="simple-tab">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -147,4 +155,9 @@
 
 
     // ------------------------------------------------------------------------
+</script>
+<script>
+    $(document).ready(function() {
+        $('<button class="btns"><div class="user-filter-div"><div class="dropdown"><button class="btn red-btn dropdown-toggle w-25" type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="#">Per User</a></li><li><a class="dropdown-item" href="#">Fixed monthly</a></li></ul></div></div></button>').insertBefore(".dataTables_filter");
+    });
 </script>

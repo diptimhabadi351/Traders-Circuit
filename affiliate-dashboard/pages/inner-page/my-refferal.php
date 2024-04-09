@@ -9,9 +9,9 @@
         <div class="layout-px-spacing">
             <div class="middle-content container-xxl p-0">
                 <div class="row layout-top-spacing ">
-                    <div class="top-tabel">
-                        <div class="row">
-                            <div class="col-md-4 left">
+                    <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
+                        <div class="widget-content widget-content-area br-8 position-btn">
+                            <div class="col-md-4 left mb-4">
                                 <h6 class="card-title">
                                     <a href="inner-page/index.php">
                                         <img src="../src/assets/img/arrow-left.svg" alt="">
@@ -19,19 +19,23 @@
                                     My Referrals / List Of Referrals
                                 </h6>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing" style="position: absolute;">
-                        <div class="widget-content widget-content-area br-8 position-btn">
                             <!-- <div class="user-filter-div">
                                 <div class="dropdown">
                                     <button class="btn btn-light-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Filter
                                     </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul class="dropdown-menu checkbox-column">
+                                        <h6 class="ms-2">Category</h6>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">All</a></li>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Downloaded</a></li>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Subscribed</a></li>
+                                        <h6 class="ms-2">Filter</h6>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Last 7 Days</a></li>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Month</a></li>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">3 months</a></li>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">6 months</a></li>
+                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">1 year</a></li>
+                                        <li><a class="dropdown-item" href="#"><input type="date" class="me-2"></a></li>
                                     </ul>
                                 </div>
                             </div> -->
@@ -105,4 +109,10 @@
 
 
     // ------------------------------------------------------------------------
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('<button class="btns"> <div class="user-filter-div"><div class="dropdown"><button class="btn red-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter</button><ul class="dropdown-menu checkbox-column"><h6 class="ms-2">Category</h6><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">All</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Downloaded</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Subscribed</a></li><h6 class="ms-2">Filter</h6><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Last 7 Days</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">Month</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">3 months</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">6 months</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="me-2">1 year</a></li><li><a class="dropdown-item" href="#"><input type="date" class="me-2"></a></li></ul></div></div></button>').insertBefore(".dataTables_filter");
+    });
 </script>

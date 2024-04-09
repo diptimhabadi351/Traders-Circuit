@@ -21,7 +21,7 @@
                             <input type="text" placeholder="Generate your Link" class="text gen_input" value="www.google.com" />
                             <div class="gen-btn">
                                 <button style="background-color: transparent;">Generate</button>
-                                <button style="background-color: #ccc;" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Save</button>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="red-btn" style="border: none;">Save</button>
                             </div>
                         </div>
                     </div>
@@ -50,8 +50,8 @@
                         <option value="5">Yearly</option>
                     </select>
                     <div class="drop-bot">
-                        <h5 class="text-center" style="font-weight: 600;">0</h5>
-                        <h5 class="m-0 text-center" style="font-weight: 600;">Downloads</h5>
+                        <h5 class="text-center" style="font-weight: 600; color:#fff;">0</h5>
+                        <h5 class="m-0 text-center" style="font-weight: 600; color:#fff;">Downloads</h5>
                     </div>
                 </div>
                 <div class="drop">
@@ -64,8 +64,8 @@
                         <option value="5">Yearly</option>
                     </select>
                     <div class="drop-bot">
-                        <h5 class="text-center" style="font-weight: 600;">0</h5>
-                        <h5 class="m-0 text-center" style="font-weight: 600;">Subscribers</h5>
+                        <h5 class="text-center" style="font-weight: 600; color:#fff;">0</h5>
+                        <h5 class="m-0 text-center" style="font-weight: 600; color:#fff;">Subscribers</h5>
                     </div>
                 </div>
                 <div class="drop">
@@ -78,8 +78,8 @@
                         <option value="5">Yearly</option>
                     </select>
                     <div class="drop-bot">
-                        <h5 class="text-center" style="font-weight: 600;">0</h5>
-                        <h5 class="m-0 text-center" style="font-weight: 600;">No of clicks</h5>
+                        <h5 class="text-center" style="font-weight: 600; color:#fff;">0</h5>
+                        <h5 class="m-0 text-center" style="font-weight: 600; color:#fff;">No of clicks</h5>
                     </div>
                 </div>
             </div>
@@ -98,8 +98,8 @@
                         <option value="5">Yearly</option>
                     </select>
                     <div class="drop-bot">
-                        <h5 class="text-center" style="font-weight: 600;">0</h5>
-                        <h5 class="m-0 text-center" style="font-weight: 600;">Total Income Generated</h5>
+                        <h5 class="text-center" style="font-weight: 600; color:#fff;">0</h5>
+                        <h5 class="m-0 text-center" style="font-weight: 600; color:#fff;">Total Income Generated</h5>
                     </div>
                 </div>
                 <div class="drop">
@@ -112,8 +112,8 @@
                         <option value="5">Yearly</option>
                     </select>
                     <div class="drop-bot">
-                        <h5 class="text-center" style="font-weight: 600;">0</h5>
-                        <h5 class="m-0 text-center" style="font-weight: 600;">Most Subscribed Product</h5>
+                        <h5 class="text-center" style="font-weight: 600; color:#fff;">0</h5>
+                        <h5 class="m-0 text-center" style="font-weight: 600; color:#fff;">Most Subscribed Product</h5>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
             </div>
             <div class="modal-body">
                 <h2 class="modal-title text-center fs-5" id="exampleModalLabel">Confirmation</h2>
-                <p class="text-center">Are you sure all details filled are correct, this action cannot be undone ?</p>
+                <p class="text-center">Are you sure all details filled are correct ? <br> this action cannot be undone !</p>
             </div>
             <div class="modal-footer justify-content-center">
                 <button type="button" class="mod-btn grey-btn" data-bs-dismiss="modal">Cancel</button>

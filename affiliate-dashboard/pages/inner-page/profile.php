@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-center mt-3 mb-5">
-                        <button class="btn btn-light-dark">Payment : Yet to be alloted</button>
+                        <button class="btn red-btn">Payment : Yet to be alloted</button>
                     </div>
                     <div class="form p-4 mb-4" style="border: 1px solid #ccc;border-radius: 10px;">
                         <div class="row">
@@ -148,7 +148,7 @@
                     </div>
                     <div class="col-md-12 mt-4">
                         <div class="form-group text-end">
-                            <button class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Save</button>
+                            <button class="btn red-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Save</button>
                         </div>
                     </div>
                 </div>
@@ -165,13 +165,19 @@
                             <div class="col-md-12">
                                 <div class="form-group mt-3">
                                     <label class="mr-2 mb-3" style="font-weight: 600;">Front Side :</label>
-                                    <input type="file" name="file">
+                                    <!-- <input type="file" name="file"> -->
+                                    <div class="multiple-file-upload">
+                                        <input type="file" class="filepond pan-frontside" name="filepond" id="product-images" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="1">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group mt-3">
                                     <label class="mr-2" style="font-weight: 600;">Back Side :</label>
-                                    <input type="file" name="file">
+                                    <!-- <input type="file" name="file"> -->
+                                    <div class="multiple-file-upload">
+                                        <input type="file" class="filepond pan-backside" name="filepond" id="backside" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="5">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -189,13 +195,19 @@
                             <div class="col-md-12">
                                 <div class="form-group mt-3">
                                     <label class="mr-2 mb-3" style="font-weight: 600;">Front Side :</label>
-                                    <input type="file" name="file">
+                                    <!-- <input type="file" name="file"> -->
+                                    <div class="multiple-file-upload">
+                                        <input type="file" class="filepond aadhar-frontside" name="filepond" id="backside" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="5">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group mt-3">
                                     <label class="mr-2" style="font-weight: 600;">Back Side :</label>
-                                    <input type="file" name="file">
+                                    <!-- <input type="file" name="file"> -->
+                                    <div class="multiple-file-upload">
+                                        <input type="file" class="filepond aadhar-backside" name="filepond" id="backside" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="5">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +236,10 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="fullName">Upload Cancelled Cheque</label>
-                                    <input type="file" name="file" class="form-control mb-3" id="cheque" value="">
+                                    <!-- <input type="file" name="file" class="form-control mb-3" id="cheque" value=""> -->
+                                    <div class="multiple-file-upload">
+                                        <input type="file" class="filepond cheque" name="filepond" id="backside" multiple data-allow-reorder="true" data-max-file-size="3MB" data-max-files="5">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -243,7 +258,7 @@
                     </div>
                     <div class="col-md-12 mt-4">
                         <div class="form-group text-end">
-                            <button class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Save</button>
+                            <button class="btn red-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Save</button>
                         </div>
                     </div>
                 </div>
@@ -324,83 +339,53 @@
 </div>
 <?php include('../../component/footer.php') ?>
 
-<!-- <script>
-    $(document).ready(function() {
-
-        var current_fs, next_fs, previous_fs;
-
-        // No BACK button on first screen
-        if ($(".show").hasClass("first-screen")) {
-            $(".prev").css({
-                'display': 'none'
-            });
-        }
-
-        // Next button
-        $(".next-button").click(function() {
-
-            current_fs = $(this).parent().parent();
-            next_fs = $(this).parent().parent().next();
-
-            $(".prev").css({
-                'display': 'block'
-            });
-
-            $(current_fs).removeClass("show");
-            $(next_fs).addClass("show");
-
-            $("#progressbar li").eq($(".card2").index(next_fs)).addClass("active");
-
-            current_fs.animate({}, {
-                step: function() {
-
-                    current_fs.css({
-                        'display': 'none',
-                        'position': 'relative'
-                    });
-
-                    next_fs.css({
-                        'display': 'block'
-                    });
-                }
-            });
-        });
-
-        // Previous button
-        $(".prev").click(function() {
-
-            current_fs = $(".show");
-            previous_fs = $(".show").prev();
-
-            $(current_fs).removeClass("show");
-            $(previous_fs).addClass("show");
-
-            $(".prev").css({
-                'display': 'block'
-            });
-
-            if ($(".show").hasClass("first-screen")) {
-                $(".prev").css({
-                    'display': 'none'
-                });
-            }
-
-            $("#progressbar li").eq($(".card2").index(current_fs)).removeClass("active");
-
-            current_fs.animate({}, {
-                step: function() {
-
-                    current_fs.css({
-                        'display': 'none',
-                        'position': 'relative'
-                    });
-
-                    previous_fs.css({
-                        'display': 'block'
-                    });
-                }
-            });
-        });
-
-    });
-</script> -->
+<script>
+    FilePond.registerPlugin(
+        FilePondPluginImagePreview,
+        FilePondPluginImageExifOrientation,
+        FilePondPluginFileValidateSize,
+    );
+    FilePond.create(
+        document.querySelector('.pan-frontside')
+    );
+</script>
+<script>
+    FilePond.registerPlugin(
+        FilePondPluginImagePreview,
+        FilePondPluginImageExifOrientation,
+        FilePondPluginFileValidateSize,
+    );
+    FilePond.create(
+        document.querySelector('.pan-backside')
+    );
+</script>
+<script>
+    FilePond.registerPlugin(
+        FilePondPluginImagePreview,
+        FilePondPluginImageExifOrientation,
+        FilePondPluginFileValidateSize,
+    );
+    FilePond.create(
+        document.querySelector('.aadhar-frontside')
+    );
+</script>
+<script>
+    FilePond.registerPlugin(
+        FilePondPluginImagePreview,
+        FilePondPluginImageExifOrientation,
+        FilePondPluginFileValidateSize,
+    );
+    FilePond.create(
+        document.querySelector('.aadhar-backside')
+    );
+</script>
+<script>
+    FilePond.registerPlugin(
+        FilePondPluginImagePreview,
+        FilePondPluginImageExifOrientation,
+        FilePondPluginFileValidateSize,
+    );
+    FilePond.create(
+        document.querySelector('.cheque')
+    );
+</script>
