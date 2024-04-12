@@ -77,17 +77,77 @@
                     </div>
                 </a>
             </li>
-            <li class="tooltip-element <?php if ($currentPage == 'manage-users') {
+            <!-- <li class="tooltip-element <?php if ($currentPage == 'manage-users') {
                                             echo 'active';
                                         } ?>" data-tooltip="2">
-                <a href="manage-users.php" data-active="2">
+                <a href="../pages/manage-users/manage-users.php" data-active="2">
                     <div class="icons">
-                        <img src="../src/assets/images/m-users.svg" />
+                        <img src="../src/assets/images/m-users.svg"/>
                         <span class="text">Manage Users</span>
                     </div>
                 </a>
-            </li>
+            </li> -->
 
+            <button class="dropdown-btn-users mb-1 <?php if ($currentPage == 'manage-users') {
+                                                        echo 'active';
+                                                    } ?>">
+                <div class="icons d-flex align-items-center justify-content-start w-100">
+                    <img src="../src/assets/images/m-users.svg"/>
+                    <span class="text-1">Manage Users</span>
+                </div>
+                <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
+            </button>
+
+            <div class="dropdown-container">
+                <ul>
+                    <li class="tooltip-element" data-tooltip="1">
+                        <a href="../pages/manage-users/subscribed.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/article 1.svg" /> -->
+                                <span class="text">Subscribed</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="tooltip-element ">
+                        <a href="../pages/manage-users/unsubscribed.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/quill_inbox-newsletter.svg" /> -->
+                                <span class="text">Unsubscribed</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="tooltip-element ">
+                        <a href="../pages/manage-users/guest-user.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/user (2) 1.svg" /> -->
+                                <span class="text">Guest User</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="tooltip-element " data-tooltip="1">
+                        <a href="../pages/manage-users/affiliate-in.php" data-active="1">
+                            <div class="icons">
+                                <!-- <img src="../src/assets/images/contract 1.svg" /> -->
+                                <span class="text">Affiliate / Influencer</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- cjnjcdsv jsdv  -->
+                                    
             <li class="tooltip-element <?php if ($currentPage == 'manage-products') {
                                             echo 'active';
                                         } ?>" data-tooltip="2">
