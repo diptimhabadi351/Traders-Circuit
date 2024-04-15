@@ -48,11 +48,11 @@
                                                 </div>
                                                 <!-- onclick hide this div -->
                                                 <div class="radio-btn-checkbox">
-                                                    <div class="form-group checkbox-btsss">
+                                                    <div class="form-group checkbox_subscription">
                                                         <input type="checkbox" class="form-control" value="Lorem ipsum">
                                                         <label class="label">Subscribed</label>
                                                     </div>
-                                                    <div class="form-group checkbox-btsss">
+                                                    <div class="form-group checkbox_subscription">
                                                         <input type="checkbox" class="form-control" value="Lorem ipsum">
                                                         <label class="label">Unsubscribed</label>
                                                     </div>
@@ -104,7 +104,7 @@
                                                             <input type="radio" class="form-control" name="radio2" id="radi02" value="">
                                                             <label for="company-name" class="label">Specific Time</label>
                                                         </div>
-                                                        <div class="form-group checkbox-btsss">
+                                                        <div class="form-group checkbox_subscription">
                                                             <input type="date" class="form-control" value="March 28, 2024 / 5:42 PM">
                                                         </div>
                                                         <br>
@@ -120,16 +120,16 @@
                                                         <!-- onclick hide this div -->
                                                         <div class="contents" >
                                                             <div class="radio-btn-checkbox">
-                                                                <div class="form-group checkbox-btsss">
+                                                                <div class="form-group checkbox_subscription">
                                                                     <input type="checkbox" class="form-control" value="Lorem ipsum">
                                                                     <label class="label">Subscribed</label>
                                                                 </div>
-                                                                <div class="form-group checkbox-btsss">
+                                                                <div class="form-group checkbox_subscription">
                                                                     <input type="checkbox" class="form-control" value="Lorem ipsum">
                                                                     <label class="label">Unsubscribed</label>
                                                                 </div>
                                                             </div>
-                                                            <div class="form-group checkbox-btsss">
+                                                            <div class="form-group checkbox_subscription">
                                                                 <input type="time" class="form-control" value="March 28, 2024">
                                                             </div>
                                                             <!-- onclick hide this div -->

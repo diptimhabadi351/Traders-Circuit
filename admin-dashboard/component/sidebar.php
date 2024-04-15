@@ -77,10 +77,10 @@
                     </div>
                 </a>
             </li>
-            <li class="tooltip-element <?php if ($currentPage == 'manage-users') {
+            <li class="tooltip-element <?php if ($currentPage == 'manage-sub-admin') {
                                             echo 'active';
                                         } ?>" data-tooltip="2">
-                <a href="manage-users.php" data-active="2">
+                <a href="../pages/manage-sub-admin/manage-sub-admin.php" data-active="2">
                     <div class="icons">
                         <img src="../src/assets/images/m-users.svg" />
                         <span class="text">Manage Users</span>
@@ -121,7 +121,7 @@
                     </li>
 
                     <li class="tooltip-element ">
-                        <a href="manage-newsletter.php" data-active="1">
+                        <a href="../pages/manage-cms/faq.php" data-active="1">
                             <div class="icons">
                                 <!-- <img src="../src/assets/images/quill_inbox-newsletter.svg" /> -->
                                 <span class="text">Manage FAQ</span>
