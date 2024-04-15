@@ -1,4 +1,4 @@
-<?php $currentPage = 'login'; ?>
+<?php $currentPage = "forgot-password" ?>
 <?php include('../../component/header.php') ?>
 <!-- <//?php include('../component/sidebar.php'); ?> -->
 
@@ -22,35 +22,23 @@
         </div>
         <div class=" col-md-6 h-100 d-flex justify-content-center align-items-center login-background-img">
             <div class="row d-flex flex-column justify-content-center align-items-center m-auto" style="width: 60%; z-index: 999;">
-                <h3 class="text-center font-weight-bold mb-5 " style="color: #000; font-size:40px;">Login</h3>
+                <h3 class="text-center font-weight-bold mb-5 " style="color: #000;">FORGOT PASSWORD</h3>
+
                 <div class="col-md-12">
                     <div class="mb-3 input-parent">
-                        <label for="name" class="">Email address</label>
-                        <!-- <i class="fa fa-envelope" aria-hidden="true"></i> -->
+                        <label for="name" class="">Enter Email address</label>
                         <input type="email" class="form-control" placeholder="">
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="mb-3 input-parent">
-                        <label for="name" class="">Password</label>
-                        <!-- <i class="fa fa-lock" aria-hidden="true"></i> -->
-                        <input type="password" class="form-control" placeholder="">
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="mb-3 d-flex align-items-center justify-content-between">
-                        <p class="mb-0"><input type="checkbox" id="" value="interest_development" name="user_interest"><label class=" mx-2" for="development">Keep me logged in </label></p>
-                        <p><a class="" style="font-size: 18px; color:#000;" href="./login/forgot-password.php">Forgot Password?</a></p>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div>
-                        <button class="p-0 mt-2"><a href="inner-page/index.php" class="download-btn w-100">Login</a></button>
+                    <div class="w-100">
+                        <button class="p-0 mt-2"><a href="../pages/login/otp.php" class="download-btn w-100">Reset Password</a></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <?php include('../../component/footer.php') ?>
