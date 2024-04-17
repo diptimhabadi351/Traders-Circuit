@@ -84,7 +84,7 @@
                 <a href="../pages/manage-sub-admin/manage-sub-admin.php" data-active="2">
 
                     <div class="icons">
-                        <img src="../src/assets/images/m-users.svg"/>
+                        <img src="../src/assets/images/m-users.svg" />
                         <span class="text">Manage Users</span>
                     </div>
                 </a>
@@ -94,7 +94,7 @@
                                                         echo 'active';
                                                     } ?>">
                 <div class="icons d-flex align-items-center justify-content-start w-100">
-                    <img src="../src/assets/images/m-users.svg"/>
+                    <img src="../src/assets/images/m-users.svg" />
                     <span class="text-1">Manage Users</span>
                 </div>
                 <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
@@ -149,11 +149,11 @@
 
 
             <!-- cjnjcdsv jsdv  -->
-                                    
+
             <li class="tooltip-element <?php if ($currentPage == 'manage-products') {
                                             echo 'active';
                                         } ?>" data-tooltip="2">
-                <a href="manage-products.php" data-active="2">
+                <a href="../pages/manage-products/manage-products.php" data-active="2">
                     <div class="icons">
                         <img src="../src/assets/images/m-products.svg" />
                         <span class="text">Manage Products</span>
@@ -294,7 +294,7 @@
             <li class="tooltip-element <?php if ($currentPage == 'manage-contact') {
                                             echo 'active';
                                         } ?>" data-tooltip="6">
-                <a href="manage-contact.php" data-active="6">
+                <a href="../pages/manage-contact/contact-us.php" data-active="6">
                     <div class="icons">
                         <img src="../src/assets/images/m-contact.svg" />
                         <span class="text">Manage Contact Us</span>

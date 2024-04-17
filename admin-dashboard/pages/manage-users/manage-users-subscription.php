@@ -53,48 +53,36 @@
                             </h6>
                             <div class="top-tabel">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="btns-datatabel">
-                                            <div class="row">
-                                                <div class="col-md-5"></div>
-                                                <div class="col-md-3">
+                                    <div class="col-md-5"></div>
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-2">
+                                        <ul class="navbar-item flex-row ms-lg-auto ms-0 mb-3">
+                                            <li class=" dropdown action-dropdown  order-lg-0 order-1">
+                                                <a href="javascript:void(0);" class="nav-link dropdown-toggle d-flex align-items-center justify-content-center filter-btn" id="actionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M22 3H2L10 12.46V19L14 21V12.46L22 3Z" stroke="#9a0000" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    <h6 class="ml-2 mb-0">Filter</h6>
+                                                </a>
+                                                <div class="dropdown-menu position-absolute" aria-labelledby="actionDropdown">
+                                                    <ul class="dropdown-item checkbox-column">
+                                                        <h6 class="ms-2">Category</h6>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">All</a></li>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Downloaded</a></li>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Subscribed</a></li>
+                                                        <h6 class="ms-2">Subscription Type</h6>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">All</a></li>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Standard</a></li>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Upgrade</a></li>
+                                                        <h6 class="ms-2">Products</h6>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Swing trade</a></li>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Multi-bagger</a></li>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Options</a></li>
+                                                        <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Combo</a></li>
+                                                    </ul>
                                                 </div>
-
-                                                <div class="col-md-2">
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <ul class="navbar-item flex-row ms-lg-auto ms-0">
-                                                        <li class=" dropdown action-dropdown  order-lg-0 order-1">
-                                                            <a href="javascript:void(0);" class="nav-link dropdown-toggle user extra-btn d-flex align-items-center justify-content-center" style="background-color: #9a0000; border: none;" id="actionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                <div class="avatar-container">
-                                                                    <div class="avatar-indicators avatar-online d-inline-block">
-                                                                        <h6 class="m-0" style="color: #fff;">Filter</h6>
-                                                                    </div>
-                                                                </div>
-                                                            </a>
-                                                            <div class="dropdown-menu position-absolute" aria-labelledby="actionDropdown">
-                                                                <ul class="dropdown-item checkbox-column">
-                                                                    <h6 class="ms-2">Category</h6>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">All</a></li>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Downloaded</a></li>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Subscribed</a></li>
-                                                                    <h6 class="ms-2">Subscription Type</h6>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">All</a></li>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Standard</a></li>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Upgrade</a></li>
-                                                                    <h6 class="ms-2">Products</h6>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Swing trade</a></li>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Multi-bagger</a></li>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Options</a></li>
-                                                                    <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Combo</a></li>
-                                                                </ul>
-                                                            </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -140,250 +128,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-    <!--  BEGIN MAIN CONTAINER  -->
-    <!-- <div class="main-container" id="container">
-        <div class="overlay"></div>
-        <div class="search-overlay"></div>
-        <div id="content" class="main-content">
-            <div class="layout-px-spacing">
-                <div class="middle-content container-xxl p-0">
-                    <div class="row layout-top-spacing ">
-                        <div class="top-tabel">
-                            <div class="row">
-                                <div class="col-md-4 left">
-                                    <h6 class="card-title">
-                                        <a href="../../admin-dashboard/pages/manage-users/manage-users.php">
-                                            <img src="../src/assets/images/arrow-left.svg" alt="">
-                                        </a>
-                                        Manage Users / Subscriptions
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
-                            <div class="widget-content widget-content-area br-8 position-btn">
-                                <div class="simple-tab roles_tab">
-                                    <ul class="nav nav-tabs" id="myTab" role=" tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">User
-                                            </button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Affiliate / Influencer
-                                            </button>
-                                        </li>
-                                    </ul>
-                                    <div class="manage-user-tabs">
-
-                                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                            <div>
-                                                <ul class="nav nav-tabs subscribes_tab" id="myTab" role=" tablist">
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link active" id="Subscribed-tab" style="font-size: 14px;" data-toggle="tab" data-target="#Subscribed-tab-pane" type="button" role="tab" aria-controls="Subscribed-tab-pane" aria-selected="true">Subscribed
-                                                        </button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link" id="guest-tab" style="font-size: 14px;" data-toggle="tab" data-target="#Unsubscribed-tab-pane" type="button" role="tab" aria-controls="Unsubscribed-tab-pane" aria-selected="false">Unsubscribed
-                                                        </button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="nav-link" id="guest-tab" style="font-size: 14px;" data-toggle="tab" data-target="#guest-tab-pane" type="button" role="tab" aria-controls="guest-tab-pane" aria-selected="false">Guest User
-                                                        </button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="tab-pane fade show active" id="Subscribed-tab-pane" role="tabpanel" aria-labelledby="Subscribed-tab" tabindex="0">
-                                                <div class="user-filter-div d-flex align-items-center">
-                                                    <button class="manage-del mx-3">
-                                                        <ul class="navbar-item flex-row ms-lg-auto ms-0 d-flex justify-content-end">
-                                                            <li class="nav-item dropdown action-dropdown  order-lg-0 order-1"><a href="javascript:void(0);" id="actionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    <div class="avatar-container">
-                                                                        <div class=" avatar-indicators avatar-online" style="color: #fff;">
-                                                                            Filter
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="dropdown-menu position-absolute p-2" aria-labelledby="actionDropdown">
-                                                                        <ul class="checkbox-column">
-                                                                            <h6 class="ms-2">Subscription Activity</h6>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">All</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Expired</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Active</a></li>
-                                                                            <h6 class="ms-2">Subscription Type</h6>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">All</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Standard</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Upgrade</a></li>
-                                                                            <h6 class="ms-2">Products</h6>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Swing trade</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Multi-bagger</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Options</a></li>
-                                                                            <li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Combo</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                            </li>
-                                                        </ul>
-                                                    </button>
-                                                    <a class="manage-del" data-toggle="modal" data-target="#caregiver-suspend-modal">
-                                                        <i class="fa fa-trash" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                                <table id="user-listtab" class="table dt-table-hover" style="width:100%">
-                                                    <thead class="text-center">
-                                                        <tr>
-                                                            <th class="checkbox-column dt-no-sorting">#</th>
-                                                            <th class="checkbox-column dt-no-sorting">Sr.no</th>
-                                                            <th class="">Name of Product</th>
-                                                            <th class="">Date of Purchase</th>
-                                                            <th>Subscription Tier</th>
-                                                            <th>Subscription Amount</th>
-                                                            <th>Expiry Date</th>
-                                                            <th>Mail Invoice</th>
-                                                            <th class="no-content">Download Invoice</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="text-center">
-                                                        <?php for ($x = 0; $x <= 6; $x++) { ?>
-                                                            <tr>
-                                                                <td class="checkbox-column"><input type="checkbox"></td>
-                                                                <td class="checkbox-column"><?php echo $x + 1 ?></td>
-                                                                <td>Multibagger</td>
-                                                                <td>28/03/24</td>
-                                                                <td>Monthly</td>
-                                                                <td>1500</td>
-                                                                <td>24/03/24</td>
-                                                                <td>
-                                                                    <img src="../src/assets/images/mail.svg" width="20px" height="20px" alt="">
-                                                                </td>
-                                                                <td>
-                                                                    <img src="../src/assets/images/download.svg" width="20px" height="20px" alt="">
-                                                                </td>
-                                                            </tr>
-                                                        <?php } ?>
-
-
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <div class="tab-pane fade" id="Unsubscribed-tab-pane" role="tabpanel" aria-labelledby="Unsubscribed-tab" tabindex="0">
-                                                unsubs
-                                            </div>
-                                            <div class="tab-pane fade" id="guest-tab-pane" role="tabpanel" aria-labelledby="guest-tab" tabindex="0">
-                                                gust
-                                            </div>
-
-                                        </div>
-
-                                        <div class="tab-pane fade " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-
-                                            <div class="row rolessub">
-                                                <div class="col-md-6 layout-spacing">
-                                                    <div class="widget-content widget-content-area">
-                                                        <div class="card-content">
-                                                            <h3>Sub Admin</h3>
-                                                            <p>Access to All</p>
-                                                            <h5>Total users with this role : 5</h5>
-                                                            <ul>
-                                                                <li>Limited admin control</li>
-                                                                <li>View and edit financial summaries</li>
-                                                                <li>Enabled bulk reports</li>
-                                                            </ul>
-                                                            <div class="modal-btn d-flex ">
-                                                                <a class="download-btn" href="manage_team_view-role_sub.php">View
-                                                                    role</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 layout-spacing">
-                                                    <div class="widget-content widget-content-area br-8 position-btn">
-                                                        <div class="card-content">
-                                                            <h3>User Manager</h3>
-                                                            <p>Total users with this role : 5</p>
-                                                            <h5>Total users with this role : 5</h5>
-                                                            <ul>
-                                                                <li>Limited admin control</li>
-                                                                <li>View and edit financial summaries</li>
-                                                                <li>Enabled bulk reports</li>
-                                                            </ul>
-                                                            <div class="modal-btn d-flex ">
-                                                                <a class="download-btn" href="manage_team_view-role_manager.php">View
-                                                                    role</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 layout-spacing">
-                                                    <div class="widget-content widget-content-area">
-                                                        <div class="card-content">
-                                                            <h3>Customer Service</h3>
-                                                            <p>Access to Contact Us & Feedback</p>
-                                                            <h5>Total users with this role : 5</h5>
-                                                            <ul>
-                                                                <li>Limited admin control</li>
-                                                                <li>View and edit financial summaries</li>
-                                                                <li>Enabled bulk reports</li>
-                                                            </ul>
-                                                            <div class="modal-btn d-flex ">
-                                                                <a class="download-btn" href="#">View
-                                                                    role</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 layout-spacing">
-                                                    <div class="widget-content widget-content-area br-8 position-btn">
-                                                        <div class="card-content">
-                                                            <h3>Marketear</h3>
-                                                            <p>Access to Subscription</p>
-                                                            <h5>Total users with this role : 5</h5>
-                                                            <ul>
-                                                                <li>Limited admin control</li>
-                                                                <li>View and edit financial summaries</li>
-                                                                <li>Enabled bulk reports</li>
-                                                            </ul>
-                                                            <div class="modal-btn d-flex ">
-                                                                <a class="download-btn" href="#">View
-                                                                    role</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 layout-spacing">
-                                                    <div class="widget-content widget-content-area br-8 position-btn">
-                                                        <div class="card-content">
-                                                            <h3>Content Manager</h3>
-                                                            <p>Access to CMS</p>
-                                                            <h5>Total users with this role : 5</h5>
-                                                            <ul>
-                                                                <li>Limited admin control</li>
-                                                                <li>View and edit financial summaries</li>
-                                                                <li>Enabled bulk reports</li>
-                                                            </ul>
-                                                            <div class="modal-btn d-flex ">
-                                                                <a class="download-btn" href="#">View
-                                                                    role</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
 
     <?php include '../../component/footer.php'; ?>
     <script src="../../src/plugins/src/table/datatable/datatables.js"></script>

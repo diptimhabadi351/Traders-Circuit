@@ -16,7 +16,7 @@
 <div class="main-container" id="container">
     <div class="overlay"></div>
     <div class="search-overlay"></div>
-    <div id="content" class="main-content">
+    <div id="content" class="main-content subscribed-edit">
         <div class="layout-px-spacing">
             <div class="middle-content  p-0 container">
                 <div class="row layout-top-spacing ">
@@ -46,15 +46,15 @@
                                                     <form style="border-right: 1px solid;">
                                                         <p>
                                                             <label class="w-25" for="">Name :</label>
-                                                            <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="text" required>
+                                                            <input class="w-50" type="text" required>
                                                         </p>
                                                         <p>
                                                             <label class="w-25" for="">Location :</label>
-                                                            <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="text">
+                                                            <input class="w-50" type="text">
                                                         </p>
                                                         <p>
                                                             <label class="w-25" for="">Phone :</label>
-                                                            <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="tel">
+                                                            <input class="w-50" type="tel">
                                                         </p>
                                                     </form>
 
@@ -63,7 +63,7 @@
                                                     <form>
                                                         <p>
                                                             <label class="w-25" for="">Email :</label>
-                                                            <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="email">
+                                                            <input class="w-50" type="email">
                                                         </p>
                                                     </form>
 
@@ -87,15 +87,15 @@
                                                     <form style="border-right: 1px solid;">
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your investment goal?</label>
-                                                            <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="text" required>
+                                                            <input type="text" required>
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">Add Investment Experience field</label>
-                                                            <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="text">
+                                                            <input type="text">
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What types of stocks do you prefer?</label>
-                                                            <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="tel">
+                                                            <input type="tel">
                                                         </p>
                                                     </form>
 
@@ -104,15 +104,15 @@
                                                     <form>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your Risk <br> Perception?</label>
-                                                            <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="email">
+                                                            <input type="email">
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your favoured <br> Market Condition?</label>
-                                                            <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="email">
+                                                            <input type="email">
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your Emotional Response to Market Volatility?</label>
-                                                            <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="email">
+                                                            <input type="email">
                                                         </p>
                                                     </form>
                                                 </div>
@@ -136,7 +136,7 @@
                                                     <form style="border-right: 1px solid;">
                                                         <p>
                                                             <label class="w-25" for="">Enter Pan no.</label>
-                                                            <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="text" required>
+                                                            <input class="w-50" type="text" required>
                                                         </p>
                                                         <!-- <p>
                                                             <label class="mr-2 mb-3" style="font-weight: 600;">Front Side :</label>
@@ -161,8 +161,8 @@
                                                     <h6 class="mb-4">Adhaar Card</h6>
                                                     <form>
                                                         <p>
-                                                            <label class="w-25" for="">Enter Aadhar no.</label>
-                                                            <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" type="email">
+                                                            <label class="" for="">Enter Aadhar no.</label>
+                                                            <input class="w-50 ml-2" type="email">
                                                         </p>
                                                         <div class="img-preview">
                                                             <label class="file">Front Side :
@@ -193,7 +193,7 @@
                                     </div>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                         <div class="card-body">
-                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="gap: 15px;">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                                 <li class="nav-item">
                                                     <a class="nav-link active" id="pills-Portfolio1-tab" data-toggle="pill" href="#pills-Portfolio1" role="tab" aria-controls="pills-Portfolio1" aria-selected="true">Portfolio 1</a>
                                                 </li>
