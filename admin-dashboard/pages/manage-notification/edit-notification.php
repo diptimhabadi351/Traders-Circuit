@@ -146,7 +146,7 @@
                                         </div>
 
                                         <div class="dashboard-btns">
-                                            <a href="" class="reds-btns">Send Now</a>
+                                            <a href="" class="red-btn">Send Now</a>
                                             <a href="" class="border-btn">Save</a>
                                         </div>
 

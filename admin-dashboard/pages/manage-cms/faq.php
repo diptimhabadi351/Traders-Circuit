@@ -57,14 +57,13 @@
                                             <td class="text-center">Account Management</td>
                                             <td class="text-center">28/03/24</td>
                                             <td class="text-center">
-                                                <label class='toggle-label'>
-                                                    <input type='checkbox' />
-                                                    <span class='back'>
-                                                        <span class='toggle'></span>
-                                                        <span class='label on'>Active</span>
-                                                        <span class='label off'>Inactive</span>
-                                                    </span>
-                                                </label>
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
                                             </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
@@ -89,14 +88,13 @@
                                             <td class="text-center">Account Management</td>
                                             <td class="text-center">28/03/24</td>
                                             <td class="text-center">
-                                                <label class='toggle-label'>
-                                                    <input type='checkbox' />
-                                                    <span class='back'>
-                                                        <span class='toggle'></span>
-                                                        <span class='label on'>Active</span>
-                                                        <span class='label off'>Inactive</span>
-                                                    </span>
-                                                </label>
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
                                             </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
@@ -121,14 +119,13 @@
                                             <td class="text-center">Account Management</td>
                                             <td class="text-center">28/03/24</td>
                                             <td class="text-center">
-                                                <label class='toggle-label'>
-                                                    <input type='checkbox' />
-                                                    <span class='back'>
-                                                        <span class='toggle'></span>
-                                                        <span class='label on'>Active</span>
-                                                        <span class='label off'>Inactive</span>
-                                                    </span>
-                                                </label>
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
                                             </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
@@ -153,14 +150,13 @@
                                             <td class="text-center">Account Management</td>
                                             <td class="text-center">28/03/24</td>
                                             <td class="text-center">
-                                                <label class='toggle-label'>
-                                                    <input type='checkbox' />
-                                                    <span class='back'>
-                                                        <span class='toggle'></span>
-                                                        <span class='label on'>Active</span>
-                                                        <span class='label off'>Inactive</span>
-                                                    </span>
-                                                </label>
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
                                             </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
@@ -185,14 +181,13 @@
                                             <td class="text-center">Account Management</td>
                                             <td class="text-center">28/03/24</td>
                                             <td class="text-center">
-                                                <label class='toggle-label'>
-                                                    <input type='checkbox' />
-                                                    <span class='back'>
-                                                        <span class='toggle'></span>
-                                                        <span class='label on'>Active</span>
-                                                        <span class='label off'>Inactive</span>
-                                                    </span>
-                                                </label>
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
                                             </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
@@ -217,14 +212,13 @@
                                             <td class="text-center">Account Management</td>
                                             <td class="text-center">28/03/24</td>
                                             <td class="text-center">
-                                                <label class='toggle-label'>
-                                                    <input type='checkbox' />
-                                                    <span class='back'>
-                                                        <span class='toggle'></span>
-                                                        <span class='label on'>Active</span>
-                                                        <span class='label off'>Inactive</span>
-                                                    </span>
-                                                </label>
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
                                             </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
@@ -253,7 +247,7 @@
 
 <script>
     $(document).ready(function() {
-        $('<button class="btns"><div class=row><div class=col-md-6></div><div class=col-md-6><div class="row top-btns"><div class="extra-btn"><div class=checkbox-dropdown>Filter <i class="fa fa-filter"aria-hidden=true></i><ul class=checkbox-dropdown-list><li><label><input name=city type=checkbox value=subscription>Subscription</label></li><li><label><input name=city type=checkbox value=investment>Investment</label></li></ul></div></div><div class="extra-btn"><a class="border-btn add-btn mt-0"href="../../admin-dashboard/pages/manage-cms/manage-categories.php">Manage Category</a></div><div class="extra-btn"><a class="border-btn add-btn mt-0"href="../../admin-dashboard/pages/manage-cms/add-faq.php"><i class="fa fa-plus"></i>Add</a></div><div class="extra-btn"><a class="border-btn mt-0"href="" data-toggle="modal" data-target="#delete-modal"><i class="fa fa-trash"></i></a></div></div></div></div></button>').insertAfter(".dt--top-section");
+        $('<button class="btns"><div class=row><div class=col-md-6></div><div class=col-md-6><div class="row top-btns"><div class="extra-btn"><ul class="border-btn navbar-item flex-row ms-lg-auto ms-0"><li class=" dropdown action-dropdown  order-lg-0 order-1"><a href="javascript:void(0);" class="nav-link dropdown-toggle user  d-flex align-items-center justify-content-center" id="actionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div class="avatar-container"><div class="avatar-indicators avatar-online d-inline-block"><h6>Filter</h6></div></div></a><div class="dropdown-menu position-absolute" aria-labelledby="actionDropdown"><ul class="dropdown-item checkbox-column"><li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Subscription</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">Investment</a></li><li><a class="dropdown-item" href="#"><input type="checkbox" class="mr-2">App Feature</a></li></ul></div></li></ul></div><div class="extra-btn"><a class="border-btn add-btn mt-0"href="../../admin-dashboard/pages/manage-cms/manage-categories.php">Manage Category</a></div><div class="extra-btn"><a class="border-btn add-btn mt-0"href="../../admin-dashboard/pages/manage-cms/add-faq.php"><i class="fa fa-plus"></i>Add</a></div><div class="extra-btn"><a class="border-btn mt-0"href="" data-toggle="modal" data-target="#delete-modal"><i class="fa fa-trash"></i></a></div></div></div></div></button>').insertAfter(".dt--top-section");
     });
 </script>
 

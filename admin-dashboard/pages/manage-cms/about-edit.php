@@ -57,7 +57,7 @@
                                 </form>
                                 <div class="dashboard-btns">
                                     <a href="../../admin-dashboard/pages/manage-cms/about-view.php" class="border-btn">Preview</a>
-                                    <a href="../../admin-dashboard/pages/manage-cms/about.php" class="reds-btns">Publish</a>
+                                    <a href="../../admin-dashboard/pages/manage-cms/about.php" class="red-btn">Publish</a>
                                 </div>
                             </div>
                         </div>
