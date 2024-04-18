@@ -60,9 +60,9 @@
                                 </div>
                                 </form>
                                 <div class="dashboard-btns">
-                                <a href="../../admin-dashboard/pages/manage-cms/faq.php" class="border-btn">Cancel</a>
-                                    <a href="../../admin-dashboard/pages/manage-cms/faq.php" class="reds-btns">Submit</a>
-                                   
+                                    <a href="../../admin-dashboard/pages/manage-cms/faq.php" class="border-btn">Cancel</a>
+                                    <a href="../../admin-dashboard/pages/manage-cms/faq.php" class="red-btn">Submit</a>
+
                                 </div>
                             </div>
                         </div>

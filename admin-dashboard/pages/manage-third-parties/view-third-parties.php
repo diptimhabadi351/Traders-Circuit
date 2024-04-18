@@ -1,4 +1,4 @@
-<?php $currentPage = "manage-cms" ?>
+<?php $currentPage = "third-parties" ?>
 <?php include('../../component/header.php'); ?>
 <?php include('../../component/sidebar.php'); ?>
 
@@ -22,53 +22,65 @@
                     <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
                         <div class="widget-content widget-content-area br-8 position-btn">
                             <div class="breadcrumb">
-                                <a href="">Manage CMS / </a>
-                                <a href="" class="ml-1"> Manage FAQ / </a>
+                                <a href="">Manage Third parties / </a>
                                 <a href="" class="ml-1"> View</a>
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <h6 class="card-title">Manage FAQ</h6>
+                                    <h6 class="card-title">Manage Third parties</h6>
                                 </div>
                             </div>
                             <div class="about-content">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="company-name" class="label">Date added</label>
-                                            <input type="date" class="form-control" id="company-name" value="21/07/2023" readonly>
+                                        <div class="form-group ">
+                                            <label for="company-name" class="label">Name</label>
+                                            <input type="text" class="form-control" value="Razorpay" readonly>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group ">
-                                            <label for="company-name" class="label">Status</label>
-                                            <input type="text" class="form-control" id="company-name" value="Active" readonly>
+                                            <label for="company-name" class="label">Dependency</label>
+                                            <input type="text" class="form-control" value="Payment Gateway" readonly>
+">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group ">
-                                            <label for="company-name" class="label">Category</label>
-                                            <input type="text" class="form-control" id="company-name" value="Portfolio" readonly>
+                                            <label for="company-name" class="label">Purchase Date</label>
+                                            <input type="text" class="form-control" value="04/04/24" readonly>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="form-group ">
-                                            <label for="company-name" class="label">FAQ Question</label>
-                                            <input type="text" class="form-control" id="company-name" value="Lorem Ipsum is simply dummy text of the printing and typesetting industry ?" readonly>
+                                            <label for="company-name" class="label">Purchase Price</label>
+                                            <input type="text" class="form-control" value="5452" readonly>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="form-group ">
-                                            <label for="company-name" class="label">FAQ Answer</label>
-                                            <textarea class="form-control" readonly>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</textarea>
+                                            <label class="label">Tier</label>
+                                            <input type="text" class="form-control" value="" readonly>
                                         </div>
                                     </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group ">
+                                            <label class="label">Renewal Date</label>
+                                            <input type="date" class="form-control" value="04/04/24" readonly>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group ">
+                                            <label class="label">Link to Renew</label>
+                                            <input type="text" class="form-control" value="https://razorpay.com/pricing/" readonly>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                                 </form>
                                 <div class="dashboard-btns">
+                                    <a href="../../admin-dashboard/pages/manage-third-parties/third-parties.php" class="red-btn">Back</a>
 
-                                <a href="../../admin-dashboard/pages/manage-cms/faq.php" class="border-btn">Cancel</a>
-                                    <a href="../../admin-dashboard/pages/manage-cms/faq.php" class="red-btn">Submit</a>
                                 </div>
                             </div>
                         </div>
@@ -79,17 +91,4 @@
     </div>
 
     <?php include '../../component/footer.php'; ?>
-    <script>
-        CKEDITOR.replace("ckplot");
-        CKEDITOR.instances["ckplot"].setData("")
-    </script>
-    <script>
-        FilePond.registerPlugin(
-            FilePondPluginImagePreview,
-            FilePondPluginImageExifOrientation,
-            FilePondPluginFileValidateSize,
-        );
-        FilePond.create(
-            document.querySelector('.filepond')
-        );
-    </script>
+    

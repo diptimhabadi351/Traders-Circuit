@@ -77,7 +77,7 @@
                             </div>
                             <div class="dashboard-btns">
                                 <a href="../../admin-dashboard/pages/manage-cms/about-edit.php" class="border-btn">Edit</a>
-                                <a href="../../admin-dashboard/pages/manage-cms/about.php" class="reds-btns">Publish</a>
+                                <a href="../../admin-dashboard/pages/manage-cms/about.php" class="red-btn">Publish</a>
                             </div>
                         </div>
                     </div>

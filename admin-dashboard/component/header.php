@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <title>Trader's Circuit</title>
-    <link rel="icon" type="image/x-icon" href="../src/assets/img/seasons_logo.png" />
+    <!-- <link rel="icon" type="image/x-icon" href="../src/assets/img/seasons_logo.png" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link href="../layouts/css/light/loader.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
