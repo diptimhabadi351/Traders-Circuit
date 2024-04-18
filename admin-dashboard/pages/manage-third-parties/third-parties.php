@@ -1,4 +1,4 @@
-<?php $currentPage = "manage-sub-admin" ?>
+<?php $currentPage = "third-parties" ?>
 <?php include('../../component/header.php'); ?>
 <?php include('../../component/sidebar.php'); ?>
 
@@ -22,12 +22,11 @@
                     <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
                         <div class="widget-content widget-content-area br-8 position-btn">
                             <div class="breadcrumb">
-                                <a href="">Manage CMS / </a>
-                                <a href="" class="ml-1"> Manage Sub Admin</a>
+                                <a href="">Manage Third parties</a>
                             </div>
-                            <h6 class="card-title">Manage Sub Admin</h6>
+                            <h6 class="card-title">Manage Third parties</h6>
                             <div class="simple-pill">
-                                <table id="sub-admin" class="table style-3 dt-table-hover">
+                                <table id="faq" class="table style-3 dt-table-hover">
                                     <thead>
                                         <tr>
                                             <th class="checkbox-column dt-no-sorting sorting_asc text-center" rowspan="1" colspan="1" aria-label=" Record Id " style="width: 70px;">
@@ -37,10 +36,10 @@
                                             </th>
                                             <th class="text-center">Sr no</th>
                                             <th class="text-center">Name</th>
-                                            <th class="text-center">Email</th>
-                                            <th class="text-center">Phone</th>
-                                            <th class="text-center">Password</th>
-                                            <th class="text-center">Permission</th>
+                                            <th class="text-center">Dependency</th>
+                                            <th class="text-center">Price</th>
+                                            <th class="text-center">Valid Till</th>
+                                            <th class="text-center">Status</th>
                                             <th class="text-center dt-no-sorting">Action</th>
                                         </tr>
                                     </thead>
@@ -52,17 +51,25 @@
                                                 </div>
                                             </td>
                                             <td class="text-center">1</td>
-                                            <td class="text-center">Vinodhini Vijayaraj</td>
-                                            <td class="text-center">vinodhini@gmail.com</td>
-                                            <td class="text-center">98989856665</td>
-                                            <td class="text-center">dccd*****</td>
-                                            <td class="text-center">Manage users</td>
+                                            <td class="text-center">Razorpay</td>
+                                            <td class="text-center">Payment Gateway</td>
+                                            <td class="text-center">4523</td>
+                                            <td class="text-center">28/03/24</td>
+                                            <td class="text-center">
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
+                                            </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
-                                                    <a href="../pages/manage-sub-admin/view-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/view-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-eye"></i>
                                                     </a>
-                                                    <a href="../manage-sub-admin/edit-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/edit-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-pencil"></i>
                                                     </a>
                                                 </div>
@@ -75,17 +82,25 @@
                                                 </div>
                                             </td>
                                             <td class="text-center">2</td>
-                                            <td class="text-center">Vinodhini Vijayaraj</td>
-                                            <td class="text-center">vinodhini@gmail.com</td>
-                                            <td class="text-center">98989856665</td>
-                                            <td class="text-center">dccd*****</td>
-                                            <td class="text-center">Manage users</td>
+                                            <td class="text-center">Razorpay</td>
+                                            <td class="text-center">Payment Gateway</td>
+                                            <td class="text-center">4523</td>
+                                            <td class="text-center">28/03/24</td>
+                                            <td class="text-center">
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
+                                            </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
-                                                    <a href="../pages/manage-sub-admin/view-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/view-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-eye"></i>
                                                     </a>
-                                                    <a href="../manage-sub-admin/edit-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/edit-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-pencil"></i>
                                                     </a>
                                                 </div>
@@ -98,17 +113,25 @@
                                                 </div>
                                             </td>
                                             <td class="text-center">3</td>
-                                            <td class="text-center">Vinodhini Vijayaraj</td>
-                                            <td class="text-center">vinodhini@gmail.com</td>
-                                            <td class="text-center">98989856665</td>
-                                            <td class="text-center">dccd*****</td>
-                                            <td class="text-center">Manage users</td>
+                                            <td class="text-center">Razorpay</td>
+                                            <td class="text-center">Payment Gateway</td>
+                                            <td class="text-center">4523</td>
+                                            <td class="text-center">28/03/24</td>
+                                            <td class="text-center">
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
+                                            </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
-                                                    <a href="../pages/manage-sub-admin/view-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/view-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-eye"></i>
                                                     </a>
-                                                    <a href="../manage-sub-admin/edit-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/edit-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-pencil"></i>
                                                     </a>
                                                 </div>
@@ -121,17 +144,25 @@
                                                 </div>
                                             </td>
                                             <td class="text-center">4</td>
-                                            <td class="text-center">Vinodhini Vijayaraj</td>
-                                            <td class="text-center">vinodhini@gmail.com</td>
-                                            <td class="text-center">98989856665</td>
-                                            <td class="text-center">dccd*****</td>
-                                            <td class="text-center">Manage users</td>
+                                            <td class="text-center">Razorpay</td>
+                                            <td class="text-center">Payment Gateway</td>
+                                            <td class="text-center">4523</td>
+                                            <td class="text-center">28/03/24</td>
+                                            <td class="text-center">
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
+                                            </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
-                                                    <a href="../pages/manage-sub-admin/view-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/view-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-eye"></i>
                                                     </a>
-                                                    <a href="../pages/manage-sub-admin/edit-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/edit-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-pencil"></i>
                                                     </a>
                                                 </div>
@@ -144,17 +175,25 @@
                                                 </div>
                                             </td>
                                             <td class="text-center">5</td>
-                                            <td class="text-center">Vinodhini Vijayaraj</td>
-                                            <td class="text-center">vinodhini@gmail.com</td>
-                                            <td class="text-center">98989856665</td>
-                                            <td class="text-center">dccd*****</td>
-                                            <td class="text-center">Manage users</td>
+                                            <td class="text-center">Razorpay</td>
+                                            <td class="text-center">Payment Gateway</td>
+                                            <td class="text-center">4523</td>
+                                            <td class="text-center">28/03/24</td>
+                                            <td class="text-center">
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
+                                            </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
-                                                    <a href="../pages/manage-sub-admin/view-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/view-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-eye"></i>
                                                     </a>
-                                                    <a href="../manage-sub-admin/edit-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/edit-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-pencil"></i>
                                                     </a>
                                                 </div>
@@ -167,17 +206,25 @@
                                                 </div>
                                             </td>
                                             <td class="text-center">6</td>
-                                            <td class="text-center">Vinodhini Vijayaraj</td>
-                                            <td class="text-center">vinodhini@gmail.com</td>
-                                            <td class="text-center">98989856665</td>
-                                            <td class="text-center">dccd*****</td>
-                                            <td class="text-center">Manage users</td>
+                                            <td class="text-center">Razorpay</td>
+                                            <td class="text-center">Payment Gateway</td>
+                                            <td class="text-center">4523</td>
+                                            <td class="text-center">28/03/24</td>
+                                            <td class="text-center">
+                                            <label class="switch">
+                                            <input type="checkbox" id="togBtn">
+                                            <div class="slider round"><!--ADDED HTML -->
+                                                <span class="on">Active</span>
+                                                <span class="off">Inactive</span><!--END-->
+                                            </div>
+                                            </label>
+                                            </td>
                                             <td class="text-center">
                                                 <div class="d-flex" style="justify-content: space-evenly;">
-                                                    <a href="../pages/manage-sub-admin/view-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/view-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-eye"></i>
                                                     </a>
-                                                    <a href="../manage-sub-admin/edit-sub-admin.php" class="datatable-icons border-btn">
+                                                    <a href="../manage-cms/edit-faq.php" class="datatable-icons border-btn">
                                                         <i class="fa fa-pencil"></i>
                                                     </a>
                                                 </div>
@@ -199,12 +246,12 @@
 
 <script>
     $(document).ready(function() {
-        $('<button class="btns"><div class=row><div class=col-md-6></div><div class=col-md-6><div class="row top-btns"><div class="extra-btn"><a class="border-btn add-btn mt-0"href="../../admin-dashboard/pages/manage-sub-admin/add-sub-admin.php"><i class="fa fa-plus"></i>Add</a></div><div class="extra-btn"><a class="border-btn mt-0"href="" data-toggle="modal" data-target="#delete-modal"><i class="fa fa-trash"></i></a></div></div></div></div></button>').insertAfter(".dt--top-section");
+        $('<button class="btns"><div class=row><div class=col-md-6></div><div class=col-md-6><div class="row top-btns"><div class="extra-btn"><a class="border-btn add-btn mt-0"href="../../admin-dashboard/pages/manage-third-parties/add-third-parties.php"><i class="fa fa-plus"></i>Add</a></div><div class="extra-btn"><a class="border-btn mt-0"href="" data-toggle="modal" data-target="#delete-modal"><i class="fa fa-trash"></i></a></div></div></div></div></button>').insertAfter(".dt--top-section");
     });
 </script>
 
 <script>
-    $('#sub-admin').DataTable({
+    $('#faq').DataTable({
         "dom": "<'dt--top-section'<'row'<'col-12 col-sm-6 d-flex justify-content-sm-start justify-content-center'l><'col-12 col-sm-6 d-flex justify-content-sm-end justify-content-center mt-sm-0 mt-3'f>>>" +
             "<'table-responsive'tr>" +
             "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",

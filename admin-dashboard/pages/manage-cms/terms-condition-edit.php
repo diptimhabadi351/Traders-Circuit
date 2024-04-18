@@ -41,7 +41,7 @@
                                 </div>
                                 </form>
                                 <div class="dashboard-btns">
-                                    <a href="../../admin-dashboard/pages/manage-cms/terms-condition.php" class="reds-btns">Publish</a>
+                                    <a href="../../admin-dashboard/pages/manage-cms/terms-condition.php" class="red-btn">Publish</a>
                                 </div>
                             </div>
                         </div>

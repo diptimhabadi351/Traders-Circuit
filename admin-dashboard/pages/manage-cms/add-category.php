@@ -55,7 +55,7 @@
                                 </form>
                                 <div class="dashboard-btns">
                                 <a href="../../admin-dashboard/pages/manage-cms/manage-categories.php" class="border-btn">Cancel</a>
-                                    <a href="../../admin-dashboard/pages/manage-cms/manage-categories.php" class="reds-btns">Submit</a>
+                                    <a href="../../admin-dashboard/pages/manage-cms/manage-categories.php" class="red-btn">Submit</a>
                                    
                                 </div>
                             </div>

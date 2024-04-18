@@ -1,57 +1,38 @@
-<div class="header-container container">
+<div class="header-container container-xxl">
     <header class="header navbar navbar-expand-sm expand-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-
-                    <li class="nav-item dropdown notification">
-                        <a class="nav-link dropdown-toggle " href="#" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="../src/assets/img/bell.svg" />
-                        </a>
-                        <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown" data-bs-popper="none">
-                            <div class="dropdown-item">
-                                <div class="notify-content">
-                                    <div class="msg-title">
-                                        <h3>Notification</h3>
-                                        <a href="#">Viewall</a>
-                                    </div>
-                                    <div class="divider"></div>
-                                    <h4>Lorem ipsum</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    <span class="tms">9 min ago</span>
-                                    <div class="divider"></div>
-                                    <h4>Lorem ipsum <span></span></h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    <span class="tms">9 min ago</span>
-
-                                </div>
-
+        <ul class="navbar-item flex-row ms-lg-auto ms-0">
+            <li class="nav-item dropdown user-profile-dropdown  order-lg-0 order-1">
+                <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="avatar-container">
+                        <div class="avatar avatar-sm avatar-indicators avatar-online">
+                            <img alt="avatar" src="../src/assets/img/profile-30.png" class="rounded-circle">
+                        </div>
+                    </div>
+                </a>
+                <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown">
+                    <div class="user-profile-section">
+                        <div class="media mx-auto">
+                            <div class="emoji me-2">
+                                👋
+                            </div>
+                            <div class="media-body">
+                                <h5>Prathmesh Chavan</h5>
                             </div>
                         </div>
-                    </li>
-                    <li class="nav-item dropdown user">
-                        <a class="nav-link dropdown-toggle" href="profile-page.php">
-                            <div class="avatar-container">
-                                <div class="avatar avatar-sm avatar-indicators avatar-online">
-                                    <img alt="avatar" src="../src/assets/img/profile-30.png" class="rounded-circle">
-                                </div>
-                            </div>
+                    </div>
+
+                    <div class="dropdown-item">
+                        <a href="auth-boxed-signin.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
+                                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                <polyline points="16 17 21 12 16 7"></polyline>
+                                <line x1="21" y1="12" x2="9" y2="12"></line>
+                            </svg> <span>Log Out</span>
                         </a>
-                        <div class="dropdown-menu position-absolute" aria-labelledby="userProfileDropdown" data-bs-popper="none">
-                            <div class="dropdown-item">
-                                <a href="signup.php">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
-                                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-                                        <polyline points="16 17 21 12 16 7"></polyline>
-                                        <line x1="21" y1="12" x2="9" y2="12"></line>
-                                    </svg> <span>Log Out</span>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </header>
 </div>
 
@@ -61,7 +42,6 @@
         <span class="shrink-btn">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
         </span>
-        <!-- <img src="../src/assets/images/seasons_logo.png" class="logo" alt=""> -->
         <h3 class="hide">Trader's Circuit</h3>
     </div>
     <div class="sidebar-links">
@@ -77,19 +57,6 @@
                     </div>
                 </a>
             </li>
-
-            <li class="tooltip-element <?php if ($currentPage == 'manage-sub-admin') {
-                                            echo 'active';
-                                        } ?>" data-tooltip="2">
-                <a href="../pages/manage-sub-admin/manage-sub-admin.php" data-active="2">
-
-                    <div class="icons">
-                        <img src="../src/assets/images/m-users.svg" />
-                        <span class="text">Manage Users</span>
-                    </div>
-                </a>
-            </li> -->
-
             <button class="dropdown-btn-users mb-1 <?php if ($currentPage == 'manage-users') {
                                                         echo 'active';
                                                     } ?>">
@@ -99,7 +66,6 @@
                 </div>
                 <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
             </button>
-
             <div class="dropdown-container">
                 <ul>
                     <li class="tooltip-element" data-tooltip="1">
@@ -139,17 +105,6 @@
                     </li>
                 </ul>
             </div>
-
-
-
-
-
-
-
-
-
-            <!-- cjnjcdsv jsdv  -->
-
             <li class="tooltip-element <?php if ($currentPage == 'manage-products') {
                                             echo 'active';
                                         } ?>" data-tooltip="2">
@@ -170,7 +125,6 @@
                 </div>
                 <i class="fa fa-angle-down mr-3" aria-hidden="true"></i>
             </button>
-
             <div class="dropdown-container">
                 <ul>
                     <li class="tooltip-element" data-tooltip="1">
@@ -229,10 +183,10 @@
                 </ul>
             </div>
 
-            <li class="tooltip-element <?php if ($currentPage == 'manage-reports') {
+            <li class="tooltip-element <?php if ($currentPage == 'manage-sub-admin') {
                                             echo 'active';
                                         } ?>" data-tooltip="5">
-                <a href="manage-reports.php" data-active="5">
+                <a href="../pages/manage-sub-admin/manage-sub-admin.php" data-active="5">
                     <div class="icons">
                         <img src="../src/assets/images/m-subadmins.svg" />
                         <span class="text">Manage Sub admins</span>
