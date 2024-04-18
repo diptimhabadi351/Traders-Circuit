@@ -13,7 +13,7 @@
 <div class="main-container" id="container">
     <div class="overlay"></div>
     <div class="search-overlay"></div>
-    <div id="content" class="main-content">
+    <div id="content" class="main-content affiliate-in">
         <div class="layout-px-spacing">
             <div class="middle-content  p-0 container">
                 <div class="row layout-top-spacing ">
@@ -28,16 +28,12 @@
                             <div class="d-flex justify-content-between align-items-center mb-4 same-btn">
                                 <h6 class="card-title mb-0">Manage Users</h6>
                                 <a href="../pages/manage-users/affiliate-in-request.php" class="" style="font-weight: 600;">Requests
-                                    <!-- <svg width="10" height="10" class="ml-2" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="6" cy="6" r="6" fill="#2D2D2D" />
-                                    </svg> -->
                                     <i class="fa fa-circle" aria-hidden="true"></i>
                                 </a>
-
                             </div>
                             <div class="row mb-4">
                                 <div class="col-md-6">
-                                    <div class="card" style="height: 300px;">
+                                    <div class="card">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-center mb-3">
                                                 <h5>Total Affiliates</h5>
@@ -51,7 +47,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card" style="height: 300px;">
+                                    <div class="card">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-center mb-3">
                                                 <h5>Recent Onboardings</h5>
@@ -67,7 +63,7 @@
                             </div>
                             <div class="row mb-4">
                                 <div class="col-md-6">
-                                    <div class="card" style="height: 300px;">
+                                    <div class="card">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between align-items-center mb-3">
                                                 <h5>Top Affiliates</h5>

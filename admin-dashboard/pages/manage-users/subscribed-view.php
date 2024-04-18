@@ -1,4 +1,4 @@
-subscribed-view
+
 <?php $currentPage = "subscribed-view" ?>
 <?php include('../../component/header.php'); ?>
 <?php include('../../component/sidebar.php'); ?>
@@ -47,17 +47,14 @@ subscribed-view
                                                     <form style="border-right: 1px solid;">
                                                         <p>
                                                             <label class="w-25" for="">Name :</label>
-                                                            <!-- <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="text" required> -->
                                                             <span>Vinodhini Vijayaraj</span>
                                                         </p>
                                                         <p>
                                                             <label class="w-25" for="">Location :</label>
-                                                            <!-- <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="text"> -->
                                                             <span>Mumbai</span>
                                                         </p>
                                                         <p>
                                                             <label class="w-25" for="">Phone :</label>
-                                                            <!-- <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="tel"> -->
                                                             <span>5482145487</span>
                                                         </p>
                                                     </form>
@@ -67,7 +64,6 @@ subscribed-view
                                                     <form>
                                                         <p>
                                                             <label class="w-25" for="">Email :</label>
-                                                            <!-- <input class="w-50" style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="email"> -->
                                                             <span>Vinodhini.v@gmail.com</span>
                                                         </p>
                                                     </form>
@@ -92,17 +88,14 @@ subscribed-view
                                                     <form style="border-right: 1px solid;">
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your investment goal?</label>
-                                                            <!-- <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="text" required> -->
                                                             <span>Capital Growth</span>
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">Add Investment Experience field</label>
-                                                            <!-- <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="text"> -->
                                                             <span>Expert ( > 12 months )</span>
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What types of stocks do you prefer?</label>
-                                                            <!-- <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="tel"> -->
                                                             <span>Swing Trade</span>
                                                         </p>
                                                     </form>
@@ -112,17 +105,14 @@ subscribed-view
                                                     <form>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your Risk <br> Perception?</label>
-                                                            <!-- <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="email"> -->
                                                             <span>Moderate</span>
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your favoured <br> Market Condition?</label>
-                                                            <!-- <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="email"> -->
                                                             <span>Neutral</span>
                                                         </p>
                                                         <p class="d-flex align-items-start ">
                                                             <label class="w-50" for="">What is your Emotional Response to Market Volatility?</label>
-                                                            <!-- <input style="border-radius: 6px; border: 1px solid #ccc; padding: 4px 10px;" readonly type="email"> -->
                                                             <span>Calm</span>
                                                         </p>
                                                     </form>
@@ -222,7 +212,7 @@ subscribed-view
                                     </div>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                         <div class="card-body">
-                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="gap: 15px;">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                                 <li class="nav-item">
                                                     <a class="nav-link active" id="pills-Portfolio1-tab" data-toggle="pill" href="#pills-Portfolio1" role="tab" aria-controls="pills-Portfolio1" aria-selected="true">Portfolio 1</a>
                                                 </li>
@@ -358,9 +348,9 @@ subscribed-view
                                     </div>
                                 </div>
                             </div>
-                            <div class="row edit-dropdown-btns">
+                            <div class="row">
                                 <div class="col-md-9"></div>
-                                <div class="col-md-3 d-flex justify-content-between">
+                                <div class="col-md-3 subscribed-view-btns">
                                     <button type="button" class="btn grey-btn ml-5">Cancel</button>
                                     <button type="button" class="btn red-btn">Save</button>
                                 </div>

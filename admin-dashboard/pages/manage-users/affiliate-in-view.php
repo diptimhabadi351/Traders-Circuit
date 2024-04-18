@@ -25,7 +25,7 @@
                     <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
                         <div class="widget-content widget-content-area br-8 position-btn">
                             <h6 class="card-title">
-                                <a href="../pages/manage-users/affiliate-in-request.php">
+                                <a href="../pages/manage-users/affiliate-in.php">
                                     <img src="../src/assets/img/arrow-left.svg" alt="">
                                 </a>
                                 Manage Users
@@ -53,7 +53,7 @@
                                         <div class="aff-view-mid">
                                             <a href="" class="common-btn">Send Credentials</a>
                                             <span>Alot payment type :</span>
-                                            <a href="#" class="common-btn">Fixed
+                                            <a href="#" class="common-btn" data-toggle="modal" data-target="#exampleModal">Fixed
                                             </a>
                                             <select class="form-control w-25" name="" id="">
                                                 <option value="" selected>All</option>
@@ -66,16 +66,16 @@
                                         </div>
                                         <div class="aff-view-bot">
                                             <div class="drop-bot border-right">
-                                                <h5 class="text-center" style="font-weight: 600;">220</h5>
-                                                <h5 class="m-0 text-center" style="font-weight: 600;">Downloads</h5>
+                                                <h5 class="text-center para" >220</h5>
+                                                <h5 class="m-0 text-center para" >Downloads</h5>
                                             </div>
                                             <div class="drop-bot border-right">
-                                                <h5 class="text-center" style="font-weight: 600;">110</h5>
-                                                <h5 class="m-0 text-center" style="font-weight: 600;">Subscribers</h5>
+                                                <h5 class="text-center para" >110</h5>
+                                                <h5 class="m-0 text-center para" >Subscribers</h5>
                                             </div>
                                             <div class="drop-bot">
-                                                <h5 class="text-center" style="font-weight: 600;">100</h5>
-                                                <h5 class="m-0 text-center" style="font-weight: 600;">No of clicks</h5>
+                                                <h5 class="text-center para" >100</h5>
+                                                <h5 class="m-0 text-center para" >No of clicks</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -106,6 +106,31 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade modaaal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    <label for="">Email ID :</label>
+                    <span>Vinodhini@Gmail.com</span>
+                </p>
+                <input type="text" placeholder="Generate">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn grey-btn" data-dismiss="modal">Close</button>
+                <button type="button" class="btn red-btn">Save changes</button>
             </div>
         </div>
     </div>
@@ -141,46 +166,6 @@
 
         // ------------  User chart starts ------------
 
-        // Data for the chart
-        var userChartData = [{
-                name: 'Line 1',
-                data: [30, 40, 85, 50, 39, 60, 70, 91, 125, 70, 50, 80]
-            },
-            {
-                name: 'Line 2',
-                data: [20, 35, 15, 55, 60, 100, 80, 95, 110, 50, 30, 40]
-            }
-        ];
-
-        // Chart options
-        var userOptions = {
-            chart: {
-                type: 'line',
-                zoom: {
-                    enabled: false // Disable Zoom and Pan
-                },
-                toolbar: {
-                    show: false // Hide the download button
-                }
-            },
-            series: userChartData,
-            xaxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-            },
-            stroke: {
-                curve: 'straight',
-                width: [4, 4]
-            },
-            markers: {
-                size: 5,
-            }
-        };
-
-        // Create the chart
-        var userChart = new ApexCharts(document.querySelector("#guest-user"), userOptions);
-        userChart.render();
-
-        // --------- User chart ends ------------
 
     });
     // ------------------------------------------------------------------------

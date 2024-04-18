@@ -108,7 +108,7 @@
             <li class="tooltip-element <?php if ($currentPage == 'manage-products') {
                                             echo 'active';
                                         } ?>" data-tooltip="2">
-                <a href="manage-products.php" data-active="2">
+                <a href="../pages/manage-products/manage-products.php" data-active="2">
                     <div class="icons">
                         <img src="../src/assets/images/m-products.svg" />
                         <span class="text">Manage Products</span>
@@ -248,7 +248,7 @@
             <li class="tooltip-element <?php if ($currentPage == 'manage-contact') {
                                             echo 'active';
                                         } ?>" data-tooltip="6">
-                <a href="manage-contact.php" data-active="6">
+                <a href="../pages/manage-contact/contact-us.php" data-active="6">
                     <div class="icons">
                         <img src="../src/assets/images/m-contact.svg" />
                         <span class="text">Manage Contact Us</span>
